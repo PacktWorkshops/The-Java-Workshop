@@ -1,0 +1,2696 @@
+<!DOCTYPE html>
+    <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+    <head>
+        <title>Packt Publishing | Technology Books, eBooks & Videos</title>
+        <script>
+            dataLayer = [];
+        </script>
+        <script type="text/javascript" src="https://d1ldz4te4covpm.cloudfront.net/sites/all/themes/packt_v4/js/util/advertisement.js"></script>
+        <script type="text/javascript" src="https://dz13w8afd47il.cloudfront.net/sites/all/themes/packt_v4/js/core/packt_freelearning.js"></script>
+                <script type="text/javascript">
+            var data_layer_page_type = 'home';
+        </script>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="https://d1ldz4te4covpm.cloudfront.net/misc/favicon.ico" type="image/x-icon" />
+<meta name="description" content="Packt is the online library and learning platform for professional developers. Learn Python, JavaScript, DevOps, Linux and more with eBooks, videos and courses." />
+<meta name="revisit-after" content="1 day" />
+        <link rel="canonical" href="https://www.packtpub.com"/>
+
+        <meta name="referrer" content="always" />
+
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="@PacktPub">
+        <meta name="twitter:creator" content="@PacktPub">
+        <meta name="twitter:title" content="Packt Publishing | Technology Books, eBooks & Videos"/>
+        <meta name="twitter:description" content="Packt is the online library and learning platform for professional developers. Learn Python, JavaScript, DevOps, Linux and more with eBooks, videos and courses."/>
+                <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta id="viewport" name="viewport" content="width=320, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+        <!-- <link href="//fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic" rel="stylesheet" type="text/css">-->
+         <link href="/sites/all/themes/packt_v4/fonts/ubuntu.css?v=1" rel="stylesheet" type="text/css">
+        <!--[if lt IE 10]>
+        <link href="/sites/all/themes/packt_v4/css/core/packtpub_ie.css" rel="stylesheet" type="text/css">
+        <![endif]-->
+        <link type="text/css" rel="stylesheet" media="all" href="https://dz13w8afd47il.cloudfront.net/sites/default/files/css/15494486506d295f4b/88193022b61633465ae9b864eeae61e3.css" />
+<link type="text/css" rel="stylesheet" media="print" href="https://dz13w8afd47il.cloudfront.net/sites/default/files/css/15494486506d295f4b/6e295a6eb8f64cef4e07d9b1f02d46e8.css" />
+  
+        <script type="text/javascript" src="https://d1ldz4te4covpm.cloudfront.net/sites/default/files/js/1549448650e5c01d8e/952c3ff98a6acdc36497d839e31aa57c.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "\u002F", "dhtmlMenu": [ "doubleclick", "clone" ] });
+//--><!]]>
+</script>
+        <script type="text/javascript">
+            var mapt_url_from_drupal = "subscription.packtpub.com" || "";
+            var Packt = Packt || {};
+            Packt.user = {};
+                            Packt.user = {"cart":[],"newsletters":[],"customer_type":"","country_code":"SE","selected_currency":"EUR","currency":"EUR","currency_symbol":"\u20ac","uid":0};
+                    </script>
+        <link rel="alternate" type="application/rss+xml" href="/rss.xml" title="Packt Publishing News" >
+
+        <!--Maxymiser script start -->
+        <script type="text/javascript" src="//service.maxymiser.net/api/eu/packtpub.com/51f3ef/mmapi.js"></script>
+        <!--Maxymiser script end -->
+
+        <!--Font Awesome -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+        <!-- Google Tag Manager -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-NJWZFW');Packt.dataLayer.init();</script>
+        <!-- End Google Tag Manager -->
+        
+        <!-- GDPR -->
+        <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+        <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+        <script>
+            window.addEventListener('load', function () {
+                window.cookieconsent.initialise({
+                    'cookie': {
+                        'domain': 'packtpub.com'
+                    },
+                    'palette': {
+                        'popup': {
+                            'background': '#ff6b01',
+                            'text': '#fffefe'
+                        },
+                        'button': {
+                            'background': '#5c85e6',
+                            'text': '#ffffff'
+                        }
+                    },
+                    'theme': 'classic',
+                    'position': 'bottom-right',
+                    'content': {
+                        'link': 'Learn More',
+                        'href': 'https://www.packtpub.com/books/info/packt/cookies'
+                    }
+                })
+            });
+        </script>
+        <!-- GDPR -->
+    </head>
+    
+    <body id="ppv4" class="with-logo">
+        <!-- Google Tag Manager (noscript) -->
+        <noscript>
+            <iframe
+                src="https://www.googletagmanager.com/ns.html?id=GTM-NJWZFW"
+                height="0"
+                width="0"
+                style="display:none;visibility:hidden"
+            >
+            </iframe>
+        </noscript>
+        <!-- End Google Tag Manager (noscript) -->
+
+        <div id="page" class="" checkout="">
+            <div id="page-header">
+                			<div id="account-bar" class="cf">
+				<div class="section-inner">
+					<div id="account-bar-status" class="cf">
+						<div id="account-bar-currency-selector">
+							<form accept-charset="UTF-8" method="post" id="packt-currency-select-form" class="float-left">
+								<div class="form-item" id="edit-currency-wrapper">
+									<select name="currency" class="form-select packt-currency-select-box selectBox" id="edit-currency" style="display:none">
+										<option value="GBP" >GBP &#163;</option>
+										<option value="USD" >US &#36;</option>
+										<option value="EUR" >EUR &#8364;</option>
+										<option value="AUD" >AU &#36;</option>
+									</select>
+								</div>
+								<input type="submit" name="op" value="" style="display: none;" class="form-submit">			
+								<input type="hidden" name="form_id" id="edit-packt-currency-select" value="packt_currency_select_form">
+							</form>
+						</div>				
+						<div class="account-bar-divider float-left">|</div>		
+						<div id="account-bar-status-security"></div>
+						<noscript>
+							<div id="account-bar-login-register-ns">
+								<a href="/account">My Account</a>
+							</div>
+						</noscript>
+						<div id="account-bar-login-register">
+							<a href="#" class="login-popup"><div class="float-left">Log in</div></a>
+							<div class="account-bar-divider float-left">|</div>
+							<a href="/register"><div class="float-left">Register</div></a>
+						</div>
+
+						<div id="account-bar-logged-in">
+							<a href="https://account.packtpub.com/">
+								<div class="float-left"><strong>My Account</strong></div>
+							</a>
+							<div class="account-bar-divider float-left">|</div>
+							<a id="account-bar-sign-out" href="/logout"><div class="float-left">Sign Out</div></a>
+						</div>
+
+					</div>
+					<div id="account-bar-form">
+						<div id="account-bar-form-login" class="cf">
+							<div class="account-bar-form-left">
+								<h4>Log in to your account</h4>
+								<form  accept-charset="UTF-8" method="post" id="packt-user-login-form">
+<div><div id="login-form" class="cf">
+    <div id="login-form-email">
+        <div class="form-item" id="email-wrapper">
+ <input type="text" maxlength="128" name="email" id="email" size="24" value="" placeholder="E-mail address" class="form-text required" />
+</div>
+    </div>
+    <div id="login-form-pass">
+        <div class="form-item" id="password-wrapper">
+ <input type="password" name="password" id="password"  maxlength="128"  size="24"  placeholder="Password" class="form-text required" />
+</div>
+    </div>
+    <div id="login-form-submit">
+        <input type="submit" name="op" id="edit-submit-1" value="Login"  class=" form-submit" />
+    </div>
+    <br />
+</div>
+<a href="https://www.packtpub.com/account/password">Forgotten your password?</a>
+
+
+
+<input type="hidden" name="form_build_id" id="form-32c9e9bd08be6e4186ff241c7b4faf6b" value="form-32c9e9bd08be6e4186ff241c7b4faf6b"  />
+
+<input type="hidden" name="form_id" id="edit-packt-user-login-form" value="packt_user_login_form"  />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div></form>
+							</div>
+							<div class="account-bar-form-right">
+								<h4>Not yet a member?</h4>
+								<p>Register for an account and access leading-edge content on emerging technologies.</p>
+								<p><a class="account-bar-toggle register" href="/register">Register now</a></p>
+							</div>
+						</div>						
+						<div id="account-bar-form-close"><a href="#">Close</a></div>
+					</div>
+				</div>
+			</div>
+                                        <div id="menu-bar">
+                <div class="section-inner cf">
+                    <div id="menuIcon"></div>
+                    <div id="menu-links" class="">
+                        <a href="/">
+                            <div class="menu-item-tab">
+                                <div class="menu-item-text dummy" id="menu-packt-logo">
+                                    <span class="alt">Packt Logo</span>
+                                </div>
+                            </div>
+                        </a>
+                                                                                    <a href="/all">
+                                    <div class="menu-item-tab">
+                                        <div class="menu-item-text" id="menu-books">
+                                            <span class="menu-text">Books & Videos</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            
+                            
+                            
+                            <a href="/tech">
+                                <div class="menu-item-tab">
+                                    <div class="menu-item-text" id="menu-tech">
+                                        <span class="menu-text">Tech</span>
+                                    </div>
+                                </div>
+                            </a>
+
+                                                            <a href="/">
+                                    <div class="menu-item-tab">
+                                        <div class="menu-item-text" id="menu-packt">
+                                            <span class="menu-text">Offers</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            
+                            <a href="/books/content/support">                      
+                                <div class="menu-item-tab">
+                                    <div class="menu-item-text" id="menu-support">
+                                        <span class="menu-text">Support</span>
+                                    </div>
+                                </div>
+                            </a>
+                                                            <a href="https://hub.packtpub.com">
+                                    <div class="menu-item-tab">
+                                        <div class="menu-item-text" id="menu-hub">
+                                            <span class="menu-text">Hub</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            
+                            <a id='menu-packtlib-href'
+                                href="https://subscribe.packtpub.com"
+                                target="_blank"
+                            >
+                                <div class="menu-item-tab">
+                                    <div class="menu-item-text" id="menu-subscriptions">
+                                        <span class="menu-text pl menu-subscription">
+                                            <span>Subscribe ></span>
+                                        </span>
+
+                                        <span class="menu-text mob-pl menu-subscription">
+                                            <span>Subscribe ></span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                                            </div>
+                    <div id="menu-icons">
+                                                                                <a href="/account/my-ebooks" class="hide-on-mobile">
+                                <div class="menu-item-tab">
+                                    <div class="menu-item-icon dummy" id="menu-collection">
+                                        <span class="alt">My Collection</span>
+                                    </div>
+                                </div>
+                            </a>
+                                                                            <a href="https://www.packtpub.com/cart/checkout">
+                            <div class="menu-item-tab last">
+                                <div class="menu-item-icon" id="menu-cart">
+                                    <div id="cart-icon-count" class="cart-icon-count"></div>
+                                    <span class="alt">Cart</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div id="menu-bar-popup" class="cf">
+                <div id="menu-bar-popup-inner" class="cf"></div>
+                <div class="section-inner cf">
+											                            <div class="menu-bar-popup-menu threecol cf" id="menu-books-popup">
+                                <div class="menu-bar-popup-section-left threecol">
+                                    <div class="menu-bar-popup-section-left-inner cf no-right-margin">
+                                        <p class="menu-bar-popup-title">Book & Video Categories</p>
+                                        <div id="books-menu">
+                                            <div class="cf">
+                                                <div class='books-menu-column categories'><div class='inner'><p><a href="/web-development">Web Development</a></p><p><a href="/big-data-and-business-intelligence">Big Data & Business Intelligence</a></p><p><a href="/application-development">Application Development</a></p><p><a href="/virtualization-and-cloud">Virtualization & Cloud</a></p></div></div><div class='books-menu-column categories'><div class='inner'><p><a href="/game-development">Game Development</a></p><p><a href="/networking-and-servers">Networking & Servers</a></p><p><a href="/hardware-and-creative">Hardware & Creative</a></p><p><a href="/business">Business</a></p></div></div>                                                <div class='books-menu-column last categories'>
+                                                    <div class='inner'>
+                                                    <p><a href="/all">All Products</a></p><p><a href="/all-books">All Books</a></p><p><a href="/video">All Videos</a></p><p><a href="/latest-releases">Latest Releases</a></p>                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="menu-bar-popup-section-right threecol">
+                                                                            <div class="menu-bar-popup-section-right-inner cf"
+                                            data-product="true"
+                                            data-product-id="9781789133417" 
+                                            data-product-title="Mastering React Test-Driven Development" 
+                                            data-product-type="ebooks" 
+                                            data-product-brand="Packt Publishing" 
+                                            data-product-exclude-list="true"
+                                            data-product-category="Web Development"
+                                            data-product-price="36.23"
+                                        >
+                                            <div id="deal-of-the-day-banner" class="cf">
+                                                <div id="menu-bar-dotd-preview-thumb">
+                                                    <a href="/books/deal-of-the-day">
+                                                        <img src="https://dz13w8afd47il.cloudfront.net/sites/default/files/imagecache/featured_book_block/B10700_cover.png" alt="Mastering React Test-Driven Development" title="" width="150" height="185" class="lazyload-disabled imagecache imagecache-featured_book_block"/>                                                        <div class="menu-bar-dotd-percentage">
+                                                            <div class="menu-bar-dotd-percentage-text">
+                                                                80<sup class="dotd-sup">%</sup><div class="dotd-sub">off</div>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div id="menu-bar-dotd-preview-text">
+                                                    <p class="menu-bar-popup-title"><a href="/books/deal-of-the-day">Deal of the Day</a></p>
+                                                    <p>Implement TDD for your React applications using Jest, React Router, Redux, and GraphQL/Relay. Learn BDD and end-to-end acceptance testing with CucumberJS and Puppeteer.</p>
+                                                </div>
+                                                <div class="cf deal-of-the-day-in-header">
+                                                    <div class="dots-main-book-price float-left">
+                                                        <div class="book-top-pricing-main-price">
+                                                            <div class="book-top-pricing-main-ebook-price  ">€7.25</div>
+                                                        </div>
+                                                        <div class="dotd-rrp-price">
+                                                            RRP €36.23                                                        </div>
+                                                    </div>
+
+                                                    <form action="/add_to_cart/37329"  accept-charset="UTF-8" method="post" id="packt-libraries-add-to-cart-form" class="packt-libraries-add-to-cart-form">
+<div>
+<div class="book-top-addtocart-inner">	
+	<div class="book-top-addtocart-logo"></div>
+	<div class="book-top-addtocart-separator"></div>
+	
+	<input type="submit" name="submit-37329" id="submit-37329" value="Add to Cart"  class=" form-submit" />
+	<input type="hidden" name="nids" id="nids" value="37329"  />
+
+<input type="hidden" name="qtys" id="qtys" value="1"  />
+
+<input type="hidden" name="upsell" id="edit-upsell" value="1"  />
+
+
+
+
+
+
+<input type="hidden" name="form_build_id" id="form-ea9a33e5366b5f7d8de07d9a0ad698fc" value="form-ea9a33e5366b5f7d8de07d9a0ad698fc"  />
+
+<input type="hidden" name="form_id" id="edit-packt-libraries-add-to-cart-form" value="packt_libraries_add_to_cart_form"  />
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+</div></form>
+                                                </div>
+                                            </div>
+                                            <div class="cf newsletter-signup-form" newsletter_id=280>
+                                                <div class="dotd-signup-text"><strong>Sign up here to get these deals straight to your inbox</strong></div> 
+                                                <form  accept-charset="UTF-8" method="post" id="packt-v3-subscribtion-dotd-form">
+<div><div class="form-item">
+ 
+</div>
+<div class="form-item" id="edit-mail-wrapper">
+ <input type="text" maxlength="128" name="mail" id="edit-mail" size="60" value="" placeholder="Enter your email address" class="form-text" />
+</div>
+<input type="hidden" name="newsletter_id" id="edit-newsletter-id" value=""  />
+<input type="submit" name="op" id="edit-submit-3" value="Submit"  class=" form-submit" />
+<input type="hidden" name="form_build_id" id="form-816e2229ff58f7b00bbfc00b3afda8b1" value="form-816e2229ff58f7b00bbfc00b3afda8b1"  />
+<input type="hidden" name="form_id" id="edit-packt-v3-subscribtion-dotd-form" value="packt_v3_subscribtion_dotd_form"  />
+
+</div></form>
+                                            </div>
+                                        </div>
+                                                                    </div>
+                            </div>
+                        
+                        
+                        <div class="menu-bar-popup-menu fivecol cf" id="menu-tech-popup">
+                            <div class="menu-bar-popup-section-left fivecol">
+                                <div class="menu-bar-popup-section-left-inner cf">
+                                    <p class="menu-bar-popup-title">Find Ebooks and Videos by Technology</p>
+                                    <div class="packt-menu cf">
+                                        <div class="cf">
+                                                                                            <div class='books-menu-column categories '>
+                                                                                                            <div class='inner'>
+                                                            <p>
+                                                                <a href="/tech/Android">Android</a>
+                                                            </p>
+                                                        </div>
+                                                                                                            <div class='inner'>
+                                                            <p>
+                                                                <a href="/tech/Angular">Angular</a>
+                                                            </p>
+                                                        </div>
+                                                                                                            <div class='inner'>
+                                                            <p>
+                                                                <a href="/tech/Arduino">Arduino</a>
+                                                            </p>
+                                                        </div>
+                                                                                                            <div class='inner'>
+                                                            <p>
+                                                                <a href="/tech/Artificial-Intelligence">Artificial Intelligence</a>
+                                                            </p>
+                                                        </div>
+                                                                                                            <div class='inner'>
+                                                            <p>
+                                                                <a href="/tech/AWS">AWS</a>
+                                                            </p>
+                                                        </div>
+                                                                                                            <div class='inner'>
+                                                            <p>
+                                                                <a href="/tech/Blender">Blender</a>
+                                                            </p>
+                                                        </div>
+                                                                                                            <div class='inner'>
+                                                            <p>
+                                                                <a href="/tech/Bootstrap">Bootstrap</a>
+                                                            </p>
+                                                        </div>
+                                                                                                            <div class='inner'>
+                                                            <p>
+                                                                <a href="/tech/C-plus-plus">C++</a>
+                                                            </p>
+                                                        </div>
+                                                                                                            <div class='inner'>
+                                                            <p>
+                                                                <a href="/tech/C-Sharp">C#</a>
+                                                            </p>
+                                                        </div>
+                                                                                                            <div class='inner'>
+                                                            <p>
+                                                                <a href="/tech/Data-Analysis">Data Analysis</a>
+                                                            </p>
+                                                        </div>
+                                                                                                    </div>
+                                                                                            <div class='books-menu-column categories '>
+                                                                                                            <div class='inner'>
+                                                            <p>
+                                                                <a href="/tech/Deep-Learning">Deep Learning</a>
+                                                            </p>
+                                                        </div>
+                                                                                                            <div class='inner'>
+                                                            <p>
+                                                                <a href="/tech/DevOps">DevOps</a>
+                                                            </p>
+                                                        </div>
+                                                                                                            <div class='inner'>
+                                                            <p>
+                                                                <a href="/tech/Django">Django</a>
+                                                            </p>
+                                                        </div>
+                                                                                                            <div class='inner'>
+                                                            <p>
+                                                                <a href="/tech/Docker">Docker</a>
+                                                            </p>
+                                                        </div>
+                                                                                                            <div class='inner'>
+                                                            <p>
+                                                                <a href="/tech/Drupal">Drupal</a>
+                                                            </p>
+                                                        </div>
+                                                                                                            <div class='inner'>
+                                                            <p>
+                                                                <a href="/tech/Finance">Finance</a>
+                                                            </p>
+                                                        </div>
+                                                                                                            <div class='inner'>
+                                                            <p>
+                                                                <a href="/tech/Go">Go</a>
+                                                            </p>
+                                                        </div>
+                                                                                                            <div class='inner'>
+                                                            <p>
+                                                                <a href="/tech/Graphics-Programming">Graphics Programming</a>
+                                                            </p>
+                                                        </div>
+                                                                                                            <div class='inner'>
+                                                            <p>
+                                                                <a href="/tech/Hadoop">Hadoop</a>
+                                                            </p>
+                                                        </div>
+                                                                                                            <div class='inner'>
+                                                            <p>
+                                                                <a href="/tech/Internet-of-Things">Internet of Things</a>
+                                                            </p>
+                                                        </div>
+                                                                                                    </div>
+                                                                                            <div class='books-menu-column categories '>
+                                                                                                            <div class='inner'>
+                                                            <p>
+                                                                <a href="/tech/iOS">iOS</a>
+                                                            </p>
+                                                        </div>
+                                                                                                            <div class='inner'>
+                                                            <p>
+                                                                <a href="/tech/Java">Java</a>
+                                                            </p>
+                                                        </div>
+                                                                                                            <div class='inner'>
+                                                            <p>
+                                                                <a href="/tech/JavaScript">JavaScript</a>
+                                                            </p>
+                                                        </div>
+                                                                                                            <div class='inner'>
+                                                            <p>
+                                                                <a href="/tech/jQuery">jQuery</a>
+                                                            </p>
+                                                        </div>
+                                                                                                            <div class='inner'>
+                                                            <p>
+                                                                <a href="/tech/Kali-Linux">Kali Linux</a>
+                                                            </p>
+                                                        </div>
+                                                                                                            <div class='inner'>
+                                                            <p>
+                                                                <a href="/tech/Laravel">Laravel</a>
+                                                            </p>
+                                                        </div>
+                                                                                                            <div class='inner'>
+                                                            <p>
+                                                                <a href="/tech/Linux">Linux</a>
+                                                            </p>
+                                                        </div>
+                                                                                                            <div class='inner'>
+                                                            <p>
+                                                                <a href="/tech/Machine-Learning">Machine Learning</a>
+                                                            </p>
+                                                        </div>
+                                                                                                            <div class='inner'>
+                                                            <p>
+                                                                <a href="/tech/Mobile-Application-Development">Mobile Application Development</a>
+                                                            </p>
+                                                        </div>
+                                                                                                            <div class='inner'>
+                                                            <p>
+                                                                <a href="/tech/Nodejs">Nodejs</a>
+                                                            </p>
+                                                        </div>
+                                                                                                    </div>
+                                                                                            <div class='books-menu-column categories '>
+                                                                                                            <div class='inner'>
+                                                            <p>
+                                                                <a href="/tech/OpenCV">OpenCV</a>
+                                                            </p>
+                                                        </div>
+                                                                                                            <div class='inner'>
+                                                            <p>
+                                                                <a href="/tech/OpenStack">OpenStack</a>
+                                                            </p>
+                                                        </div>
+                                                                                                            <div class='inner'>
+                                                            <p>
+                                                                <a href="/tech/Oracle">Oracle</a>
+                                                            </p>
+                                                        </div>
+                                                                                                            <div class='inner'>
+                                                            <p>
+                                                                <a href="/tech/Penetration-Testing">Penetration Testing</a>
+                                                            </p>
+                                                        </div>
+                                                                                                            <div class='inner'>
+                                                            <p>
+                                                                <a href="/tech/PHP">PHP</a>
+                                                            </p>
+                                                        </div>
+                                                                                                            <div class='inner'>
+                                                            <p>
+                                                                <a href="/tech/PostgreSQL">PostgreSQL</a>
+                                                            </p>
+                                                        </div>
+                                                                                                            <div class='inner'>
+                                                            <p>
+                                                                <a href="/tech/Python">Python</a>
+                                                            </p>
+                                                        </div>
+                                                                                                            <div class='inner'>
+                                                            <p>
+                                                                <a href="/tech/QlikView">QlikView</a>
+                                                            </p>
+                                                        </div>
+                                                                                                            <div class='inner'>
+                                                            <p>
+                                                                <a href="/tech/R">R</a>
+                                                            </p>
+                                                        </div>
+                                                                                                            <div class='inner'>
+                                                            <p>
+                                                                <a href="/tech/Raspberry-Pi">Raspberry Pi</a>
+                                                            </p>
+                                                        </div>
+                                                                                                    </div>
+                                                                                            <div class='books-menu-column categories last'>
+                                                                                                            <div class='inner'>
+                                                            <p>
+                                                                <a href="/tech/React">React</a>
+                                                            </p>
+                                                        </div>
+                                                                                                            <div class='inner'>
+                                                            <p>
+                                                                <a href="/tech/Scala">Scala</a>
+                                                            </p>
+                                                        </div>
+                                                                                                            <div class='inner'>
+                                                            <p>
+                                                                <a href="/tech/Spark">Spark</a>
+                                                            </p>
+                                                        </div>
+                                                                                                            <div class='inner'>
+                                                            <p>
+                                                                <a href="/tech/Spring">Spring</a>
+                                                            </p>
+                                                        </div>
+                                                                                                            <div class='inner'>
+                                                            <p>
+                                                                <a href="/tech/Swift">Swift</a>
+                                                            </p>
+                                                        </div>
+                                                                                                            <div class='inner'>
+                                                            <p>
+                                                                <a href="/tech/TensorFlow">TensorFlow</a>
+                                                            </p>
+                                                        </div>
+                                                                                                            <div class='inner'>
+                                                            <p>
+                                                                <a href="/tech/Unity">Unity</a>
+                                                            </p>
+                                                        </div>
+                                                                                                            <div class='inner'>
+                                                            <p>
+                                                                <a href="/tech/Virtual-and-Augmented-Reality">Virtual and Augmented Reality</a>
+                                                            </p>
+                                                        </div>
+                                                                                                            <div class='inner'>
+                                                            <p>
+                                                                <a href="/tech/VueJS">VueJS</a>
+                                                            </p>
+                                                        </div>
+                                                                                                            <div class='inner'>
+                                                            <p>
+                                                                <a href="/tech/WordPress">WordPress</a>
+                                                            </p>
+                                                        </div>
+                                                                                                    </div>
+                                                                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                                                <div class="menu-bar-popup-menu cf" id="menu-packt-popup">
+                                                        <div class="menu-bar-popup-section-left twenty-percent-width">
+                                <div class="menu-bar-popup-section-left-inner cf">
+                                    <p class="menu-bar-popup-title">Deals</p>
+                                    <div class="packt-menu books-menu-column categories cf">
+                                        <div class="cf">
+                                            <div class="inner">
+                                                <p><a href="/bundles">Bundles</a></p>
+                                                <p><a href="/books/deal-of-the-day">Deal of the day</a></p>
+                                                <p><a href="/packt/offers/free-learning">Free Learning</a></p>
+                                                <p><a href="https://subscribe.packtpub.com/">Subscription Free Trial</a></p>
+                                                <p><a href="/books/content/prefer-print-copy">Upgrade to Print</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                                        <div class="menu-bar-popup-section-left fourcol two-categories">
+                                <div class="menu-bar-popup-section-left-inner cf">
+                                    <p class="menu-bar-popup-title">Bundles</p>
+                                    <div class="packt-menu cf">
+                                        <div class="cf">
+                                                                                            <div
+                                                    class="books-menu-column bundles-menu-column categories ">
+                                                    <div class="inner">
+                                                                                                                    <p>
+                                                                <a href="https://www.packtpub.com/bundles/dot-net-c-sharp">.NET and C#</a>
+                                                            </p>
+                                                                                                                    <p>
+                                                                <a href="https://www.packtpub.com/bundles/android">Android</a>
+                                                            </p>
+                                                                                                                    <p>
+                                                                <a href="https://www.packtpub.com/bundles/angular">Angular</a>
+                                                            </p>
+                                                                                                                    <p>
+                                                                <a href="https://www.packtpub.com/bundles/aws-amazon-web-services">AWS</a>
+                                                            </p>
+                                                                                                                    <p>
+                                                                <a href="https://www.packtpub.com/bundles/blockchain">Blockchain</a>
+                                                            </p>
+                                                                                                            </div>
+                                                </div>
+                                                                                            <div
+                                                    class="books-menu-column bundles-menu-column categories ">
+                                                    <div class="inner">
+                                                                                                                    <p>
+                                                                <a href="https://www.packtpub.com/bundles/cyber-security">Cyber Security</a>
+                                                            </p>
+                                                                                                                    <p>
+                                                                <a href="https://www.packtpub.com/bundles/deep-learning">Deep Learning</a>
+                                                            </p>
+                                                                                                                    <p>
+                                                                <a href="https://www.packtpub.com/bundles/devops">DevOps</a>
+                                                            </p>
+                                                                                                                    <p>
+                                                                <a href="https://www.packtpub.com/bundles/docker">Docker</a>
+                                                            </p>
+                                                                                                                    <p>
+                                                                <a href="https://www.packtpub.com/bundles/fullstack">Full Stack</a>
+                                                            </p>
+                                                                                                            </div>
+                                                </div>
+                                                                                            <div
+                                                    class="books-menu-column bundles-menu-column categories ">
+                                                    <div class="inner">
+                                                                                                                    <p>
+                                                                <a href="https://www.packtpub.com/bundles/game-development">Game Dev</a>
+                                                            </p>
+                                                                                                                    <p>
+                                                                <a href="https://www.packtpub.com/bundles/git-and-github">Git and Github</a>
+                                                            </p>
+                                                                                                                    <p>
+                                                                <a href="https://www.packtpub.com/bundles/go">Go</a>
+                                                            </p>
+                                                                                                                    <p>
+                                                                <a href="https://www.packtpub.com/bundles/modern-java">Java</a>
+                                                            </p>
+                                                                                                                    <p>
+                                                                <a href="https://www.packtpub.com/bundles/javascript">JavaScript</a>
+                                                            </p>
+                                                                                                            </div>
+                                                </div>
+                                                                                            <div
+                                                    class="books-menu-column bundles-menu-column categories last">
+                                                    <div class="inner">
+                                                                                                                    <p>
+                                                                <a href="https://www.packtpub.com/bundles/machinelearning">Machine Learning</a>
+                                                            </p>
+                                                                                                                    <p>
+                                                                <a href="https://www.packtpub.com/bundles/python">Python</a>
+                                                            </p>
+                                                                                                                    <p>
+                                                                <a href="https://www.packtpub.com/bundles/react">React</a>
+                                                            </p>
+                                                                                                                    <p>
+                                                                <a href="https://www.packtpub.com/bundles/sysadmins">SysAdmins</a>
+                                                            </p>
+                                                                                                                    <p>
+                                                                <a href="https://www.packtpub.com/bundles/unity">Unity</a>
+                                                            </p>
+                                                                                                            </div>
+                                                </div>
+                                                                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+
+                    <div class="menu-bar-popup-menu cf" id="menu-support-popup">
+                        <div class="menu-bar-popup-section-left twocol">
+                            <div class="menu-bar-popup-section-left-inner cf">
+                                <p class="menu-bar-popup-title">Packt Publishing</p>
+                                <div class="packt-menu cf">
+                                    <div class="books-menu-column">
+                                        <div class="inner">
+                                            <p><a href="/books/info/packt/about">About Us</a></p>
+                                            <p><a href="/press">Press</a></p>
+                                            <p><a href="/books/info/packt/authors">Our Authors</a></p>
+                                        </div>
+                                    </div>
+                                    <div class="books-menu-column">
+                                        <div class="inner">
+                                            <p><a href="/books/info/packt/contact-us">Contact Us</a></p>
+                                            <p><a href="/books/info/packt/careers-with-packt">Careers</a></p>
+                                            <p><a href="/books/info/packt/trade-partners">Trade & Partners</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-bar-popup-section-right-nobackground twocol fortyfive-percent-width">
+                            <div class="menu-bar-popup-section-left-inner cf">
+                                <p class="menu-bar-popup-title">Support</p>
+                                <div class="packt-menu cf">
+                                    <div class="books-menu-column">
+                                        <div class="inner">
+                                            <p><a href="/books/info/packt/faq">FAQs</a></p>
+                                            <p><a href="/books/info/packt/ordering">Ordering Information</a></p>
+                                            <p><a href="/books/info/packt/terms-and-conditions">Terms & Conditions</a></p>
+                                        </div>
+                                    </div>
+                                    <div class="books-menu-column">
+                                        <div class="inner">
+                                            <p><a href="/books/content/support">Code Downloads & Errata</a></p>
+                                            <p><a href="/books/content/errata">Submit Errata</a></p>
+                                            <p><a href="/books/info/packt/privacy">Privacy</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-bar-popup-menu cf" id="menu-hub-popup">
+                        <div class="menu-bar-popup-section-left twocol">
+                            <div class="menu-bar-popup-section-left-inner cf">
+                                <p class="menu-bar-popup-title">Packt Hub</p>
+                                <p class="font-twelve">Technology news, analysis, and tutorials from Packt. Stay up to date with what's important in software engineering today.</p>
+                                <div class="packt-menu cf">
+                                    <div class="books-menu-column">
+                                        <div class="inner">
+                                            <p><a href="https://hub.packtpub.com/category/insights/">Insights</a></p>
+                                            <p><a href="https://hub.packtpub.com/category/tutorials/">Tutorials</a></p>
+                                        </div>
+                                    </div>
+                                    <div class="books-menu-column">
+                                        <div class="inner">
+                                            <p><a href="https://hub.packtpub.com/home-page/news/">News</a></p>
+                                            <p><a href="https://hub.packtpub.com/about/become-a-contributor-to-the-hub/">Become a contributor</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-bar-popup-section-right-nobackground twocol fortyfive-percent-width">
+                            <div class="menu-bar-popup-section-left-inner cf">
+                                <p class="menu-bar-popup-title">Categories</p>
+                                <div class="packt-menu cf">
+                                    <div class="books-menu-column">
+                                        <div class="inner">
+                                            <p><a href="https://hub.packtpub.com/category/web-development/">Web development</a></p>
+                                            <p><a href="https://hub.packtpub.com/category/programming/">Programming</a></p>
+                                            <p><a href="https://hub.packtpub.com/category/data/">Data</a></p>
+                                            <p><a href="https://hub.packtpub.com/category/security/">Security</a></p>
+                                        </div>
+                                    </div>
+                                    <div class="books-menu-column">
+                                        <div class="inner">
+                                            <p><a href="https://hub.packtpub.com/category/cloud-and-networking/">Cloud and Networking</a></p>
+                                            <p><a href="https://hub.packtpub.com/category/mobile/">Mobile</a></p>
+                                            <p><a href="https://hub.packtpub.com/category/game-development/">Game Development</a></p>
+                                            <p><a href="https://hub.packtpub.com/category/iot-and-hardware/">IoT & Hardware</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-bar-popup-menu cf" id="menu-packtlib-popup">
+                        <div class="menu-bar-popup-section-left twocol">
+                            <div class="menu-bar-popup-section-left-inner cf">
+                                <p class="menu-bar-popup-title">Subscription</p>
+                                <div class="packt-menu cf">
+                                    <div class="books-menu-column">
+                                        <div class="inner">
+                                            <p id="menu-mapt-link">
+                                                <a href="https://subscribe.packtpub.com" target='_blank'>
+                                                    Go to Subscription                                                </a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-bar-popup-menu cf" id="menu-cart-popup">
+                        <div class="menu-bar-popup-section-left even">
+                            <div class="menu-bar-popup-section-left-inner cf">
+                                <div id="menu-bar-popup-cart-preview">
+                                    <div id="menu-bar-popup-cart-item-preview">
+
+                                        <div id="menu-bar-popup-cart-item-preview-image">
+                                            <img src="" />
+                                        </div>
+                                        <p class="menu-bar-popup-title">Added to Cart</p>
+                                        <p id="menu-bar-popup-cart-item-preview-title"></p>
+                                        <p id="menu-bar-popup-cart-item-preview-oneliner"></p>
+                                        <p id="menu-bar-popup-cart-item-preview-additional">...and <span></span> more</p>
+                                        <p class="price"><span id="menu-bar-popup-cart-item-preview-currency"></span><span id="menu-bar-popup-cart-item-preview-price"></span></p>
+                                    </div>
+                                </div>
+                                <p id="menu-bar-popup-cart-empty-preview">
+                                    You don't have anything in your cart right now.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="menu-bar-popup-section-right even">
+                            <div class="menu-bar-popup-section-right-inner cf">
+                                <div id="menu-bar-popup-content">
+                                    <div class="cf cart-price-preview">
+                                        <p id="menu-bar-popup-subtotal-title" class="menu-bar-popup-title float-left">Subtotal</p>
+                                        <p id="menu-bar-popup-subtotal-value" class="menu-bar-popup-title float-right price"> 0.00</p>
+                                        <p id="menu-bar-popup-subtotal-currency" class="menu-bar-popup-title float-right price"></p>
+                                    </div>
+                                    <p><strong>Free shipping</strong> on print orders for US, UK, Europe and selected Asian countries</p>
+                                    <form>
+                                        <a href="https://www.packtpub.com/cart/checkout" class="button-link grey">View Cart</a>
+                                        <span></span>
+                                        <a href="https://www.packtpub.com/cart/checkout/?checkout_step=upsell" class="button-link">Check Out</a>
+                                    </form>
+                                </div>
+                                <div id="checkout-close" onclick="Packt.headerMenu.hideMenuPopup()"></div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-bar-popup-menu cf" id="menu-cart-small">
+                        <div>
+                            <div class="small-popup-outer float-right">
+                                <div class="small-popup-tick">
+                                    &nbsp;
+                                </div>
+                                <div class="small-popup-text">
+                                    <strong>
+                                        Title added to cart
+                                    </strong>
+                                </div>
+                                <div class="small-popup-seperator">
+                                </div>
+                                <div class="small-popup-arrows">
+&nbsp;
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-bar-popup-menu cf" id="menu-subscriptions-popup">
+                                                    <div class="menu-bar-popup-section-left twocol">
+                                <div class="menu-bar-popup-section-left-inner cf">
+                                    <p class="menu-bar-popup-title">Subscription</p>
+                                    <div class="packt-menu cf">
+                                        <div class="books-menu-column">
+                                            <div class="inner">
+                                                <p><a href="https://subscribe.packtpub.com">About Subscription</a></p>
+                                                <p><a href="https://subscribe.packtpub.com/pricing">Pricing</a></p>
+                                                <p><a href="https://subscription.packtpub.com/login">Login</a></p>
+                                            </div>
+                                        </div>
+                                        <div class="books-menu-column">
+                                            <div class="inner">
+                                                <p><a href="https://subscribe.packtpub.com/features">Features</a></p>
+                                                <p><a href="https://subscribe.packtpub.com/free-trial">Free Trial</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                            </div>
+                            </div>
+            <div id="menu-bar-popup-inner-bottom" class="cf"></div>
+        </div>
+            </div>
+						<div id="main-container" class="front not-logged-in page-index no-sidebars ">
+                                <div class="section-inner cf">
+                    <div class="menu-bar-popup-search-inner">
+                        <form  accept-charset="UTF-8" method="post" id="packt-libraries-main-search-form">
+<div>
+<div id="menu-bar-search" class="cf">
+    <div id="menu-bar-search-title">
+        <div class="form-item">Search for eBooks and Videos</div>
+    </div>
+    <div id="menu-bar-search-box">
+        <div class="form-item" id="main-search-keys-wrapper">
+ <input type="text" name="keys" id="main-search-keys" size="49" value="" placeholder="Find the latest in tech learning..." class="form-text" />
+</div>
+    </div>
+    <div id="menu-bar-search-button">
+        <input type="submit" name="op" id="edit-submit-6" value="Search"  class=" form-submit" />
+    </div>
+    <span class="magnifier" onclick="Packt.util.submitClosestForm(this)"></span>
+    <input type="hidden" name="sort" id="edit-sort-1" value="0"  />
+
+<input type="hidden" name="types" id="edit-types-1" value="0"  />
+
+<input type="hidden" name="forthcoming" id="edit-forthcoming-1" value="1"  />
+
+<input type="hidden" name="available" id="edit-available-1" value="1"  />
+
+<input type="hidden" name="count" id="edit-count-1" value="20"  />
+
+
+
+
+<input type="hidden" name="form_build_id" id="form-0f8a0803ec675ceab77e5dfedd5b8e58" value="form-0f8a0803ec675ceab77e5dfedd5b8e58"  />
+
+<input type="hidden" name="form_id" id="edit-packt-libraries-main-search-form" value="packt_libraries_main_search_form"  />
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<div class="facet-search-cross facet-search-cross-autocomplete"></div>
+</div></form>
+                    </div>
+                </div>
+                				<div id="main" class="">
+					
+											 <!-- #content -->
+					 	<div id="content">
+						 	
+					 		
+						 								 			<div class="section-inner cf">
+						 							 			<div id="messages-container">
+							 							 			</div>
+						 								 			</div>
+						 		
+
+							
+							
+							<a name="main-content" id="main-content"></a>
+							<div class="panel-display panel-1col clear-block" id="main-carousel">
+  <div class="panel-panel panel-col">
+    <div><div class="panel-pane">
+<div class="content">
+<div class="homepage-zone homepage-header" style="background-image: url('https://dz13w8afd47il.cloudfront.net/sites/default/files/3-for-25-2019-homepage_bg.png');background-size:cover;">
+    <div class="section-inner">
+        <a href="/r/search-latest-titles"><img src="https://dz13w8afd47il.cloudfront.net/sites/default/files/3-for-25-2019-homepage_fg02.png" /></a>
+        <form  accept-charset="UTF-8" method="post" id="packt-libraries-five-dollar-search-form">
+<div><div class="form-item" id="five-dollar-search-keys-wrapper">
+ <input type="text" name="keys" id="five-dollar-search-keys" size="49" value="" placeholder="Search for tech titles" class="form-text" />
+</div>
+<input type="hidden" name="sort" id="edit-sort" value="0"  />
+<input type="hidden" name="types" id="edit-types" value="0"  />
+<input type="hidden" name="forthcoming" id="edit-forthcoming" value="1"  />
+<input type="hidden" name="available" id="edit-available" value="1"  />
+<input type="hidden" name="count" id="edit-count" value="20"  />
+<input type="submit" name="op" id="edit-submit" value=""  class=" form-submit" />
+<input type="hidden" name="form_build_id" id="form-fa812f659d7b25c2293fd2430e026d5a" value="form-fa812f659d7b25c2293fd2430e026d5a"  />
+<input type="hidden" name="form_id" id="edit-packt-libraries-five-dollar-search-form" value="packt_libraries_five_dollar_search_form"  />
+
+</div></form>
+    </div>
+    <div class="homepage-tech-tags">
+        <h2><a id='homepage-tech-tags-header' href="/tech">Trending Technologies</a></h2>
+        <div class="section-inner">
+                            <a href="http://www.packtpub.com/tech/Android">Android</a>
+                            <a href="http://www.packtpub.com/tech/Angular">Angular</a>
+                            <a href="http://www.packtpub.com/tech/Artificial-Intelligence">Artificial Intelligence</a>
+                            <a href="http://www.packtpub.com/tech/AWS">AWS</a>
+                            <a href="http://www.packtpub.com/tech/C-plus-plus">C++</a>
+                            <a href="http://www.packtpub.com/tech/C-Sharp">C#</a>
+                            <a href="http://www.packtpub.com/tech/Data-Analysis">Data Analysis</a>
+                            <a href="http://www.packtpub.com/tech/Deep-Learning">Deep Learning</a>
+                            <a href="http://www.packtpub.com/tech/DevOps">DevOps</a>
+                            <a href="http://www.packtpub.com/tech/Docker">Docker</a>
+                            <a href="http://www.packtpub.com/tech/Go">Go</a>
+                            <a href="http://www.packtpub.com/tech/Java">Java</a>
+                            <a href="http://www.packtpub.com/tech/JavaScript">JavaScript</a>
+                            <a href="http://www.packtpub.com/tech/Linux">Linux</a>
+                            <a href="http://www.packtpub.com/tech/Machine-Learning">Machine Learning</a>
+                            <a href="http://www.packtpub.com/tech/Nodejs">NodeJS</a>
+                            <a href="http://www.packtpub.com/tech/PHP">PHP</a>
+                            <a href="http://www.packtpub.com/tech/Python">Python</a>
+                            <a href="http://www.packtpub.com/tech/React">React</a>
+                            <a href="http://www.packtpub.com/tech/Unity">Unity</a>
+                            <a href="http://www.packtpub.com/tech/Virtual-and-Augmented-Reality">Virtual Reality and Augmented Reality</a>
+                    </div>
+    </div>
+</div>
+</div>
+</div>
+<div class="panel-region-separator"></div><div class="panel-pane">
+<div class="content"><div class="section-inner cf">
+	<div class="hero-blocks display-3 cf">
+											<a href="https://www.packtpub.com/books/deal-of-the-day">
+	<div class="hero-block  bg-ffffff" style="background-color: #ffffff; background-image: url(https://d255esdrn735hr.cloudfront.net/sites/default/files/dotd_Block.png);">
+		<div class="hero-block-body">
+			<p>&nbsp;</p>		</div>
+	</div>
+</a>
+														<a href="https://www.packtpub.com/r/search-latest-titles">
+	<div class="hero-block  bg-ffffff" style="background-color: #ffffff; background-image: url(https://d255esdrn735hr.cloudfront.net/sites/default/files/3-for-25-2019_Block.png);">
+		<div class="hero-block-body">
+			<p>&nbsp;</p>		</div>
+	</div>
+</a>
+														<a href="https://www.packtpub.com/big-data-and-business-intelligence/machine-learning-r-third-edition">
+	<div class="hero-block last bg-ffffff" style="background-color: #ffffff; background-image: url(https://dz13w8afd47il.cloudfront.net/sites/default/files/PEN-spotlight_block.png);">
+		<div class="hero-block-body">
+			<p>&nbsp;</p>		</div>
+	</div>
+</a>
+							<div class="clear"></div>		
+						</div>
+</div></div>
+</div>
+<div class="panel-region-separator"></div><div class="panel-pane">
+<div class="content"><div id="featured-books">
+	<div id="featured-books-inner" class="section-inner">
+		<div id="featured-blurb">
+			<h1>Bestselling eBooks</h1>
+			<div>
+				<p>Get started with our bestselling and latest releases, chosen to help developers deliver.</p>
+<table style="margin: 0; width: 100%;" cellpadding="5" align="center">
+<tbody>
+<tr>
+<td align="center"><a style="border: 10px solid #548ED7; color: #ffffff; background-color: #548ed7; text-align: center; text-decoration: none; display: block;" href="https://www.packtpub.com/bestsellers">More Best Sellers</a></td>
+</tr>
+<tr>
+<td align="center"><a style="border: 10px solid #548ED7; color: #ffffff; background-color: #548ed7; text-align: center; text-decoration: none; display: block;" href="https://search.packtpub.com/?sortBy=prod-packt-main-MostRecent&amp;refinementList%5Bproduct_type%5D%5B0%5D=Book&amp;refinementList%5Breleased%5D%5B0%5D=Available">Popular eBooks</a></td>
+</tr>
+<tr>
+<td align="center"><a style="border: 10px solid #548ED7; color: #ffffff; background-color: #548ed7; text-align: center; text-decoration: none; display: block;" href="https://search.packtpub.com/?sortBy=prod-packt-main-MostRecent&amp;refinementList%5Bproduct_type%5D%5B0%5D=Video&amp;refinementList%5Breleased%5D%5B0%5D=Available">Popular Videos</a></td>
+</tr>
+</tbody>
+</table>			</div>
+		</div>
+										
+
+    <div
+        class="book-block-outer "
+        itemscope
+        itemtype="http://schema.org/Product"
+        data-product="true"
+        data-product-nid=""
+        data-product-id="9781789130751"
+        data-product-position="1"
+        data-product-price="25.37"
+        data-product-title="Hands-On Full Stack Development with Go"
+        data-product-type="ebooks"
+        data-product-brand="Packt Publishing"         data-product-category="Web Development"
+    >
+		<div class="book-block">
+			<div class="book-block-icon-books">
+			</div>
+							<noscript>
+                    <img src="https://dz13w8afd47il.cloudfront.net/sites/default/files/imagecache/featured_book_block/B10716_pub.png"title="Hands-On Full Stack Development with Go from Packt" alt="Hands-On Full Stack Development with Go Book Cover"                        class="bookimage "
+                    />
+				</noscript>
+                <img src="/sites/default/files/blank.gif" data-original="https://dz13w8afd47il.cloudfront.net/sites/default/files/imagecache/featured_book_block/B10716_pub.png"
+                    class="bookimage "
+                    alt="Hands-On Full Stack Development with Go Book Cover" title="Hands-On Full Stack Development with Go from Packt"                />
+						<div class="book-block-title" itemprop="name">
+				Hands-On Full Stack Development with Go			</div>
+
+            <div class="book-block-price ">
+                <div class="book-block-price-full">
+                    € 36.23                </div>
+                <div class="book-block-price-discounted " itemprop="offers" itemtype="http://schema.org/Offer" itemscope>
+                    <meta itemprop="price" content="25.37"/>
+                    <meta itemprop="priceCurrency" content="EUR"/>
+                    € 25.37                </div>
+            </div>
+
+            <div class="book-block-overlay">
+                <a href="/web-development/hands-full-stack-development-go">
+                    <div class="book-block-one-liner ellipsis" itemprop="description">
+                        Hands-On Full Stack Development with Go                    </div>
+                                            <div class="book-block-overlay-release-date">Mar 2019</div>
+                                                                <div class="book-block-overlay-product-length">324 pages</div>
+                                                                <div class="book-block-overlay-product-price">€ 25.37</div>
+                                    </a>
+                <div class="book-block-overlay-lower">
+                    <div class="feefo-review-star-rating book-block-rating">
+                                            </div>
+                    <div class="book-block-buttons ">
+                                                    <button type="submit"
+                                nid="34716"
+                                action="/web-development/hands-full-stack-development-go"
+                                class="book-block-learn-more"
+                            >
+                                Learn more
+                            </button>
+                                                                            <button type="submit"
+                                nid="34716"
+                                action="/add_to_cart/34715"
+                                class="book-block-buy  "
+                            >
+                                Add to cart
+                            </button>
+                                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+								
+
+    <div
+        class="book-block-outer  book-block-position-2"
+        itemscope
+        itemtype="http://schema.org/Product"
+        data-product="true"
+        data-product-nid=""
+        data-product-id="9781789955286"
+        data-product-position="2"
+        data-product-price="18.37"
+        data-product-title="Big Data Analysis with Python"
+        data-product-type="ebooks"
+        data-product-brand="Packt Publishing"         data-product-category="Big Data & Business Intelligence"
+    >
+		<div class="book-block">
+			<div class="book-block-icon-books">
+			</div>
+							<noscript>
+                    <img src="https://dz13w8afd47il.cloudfront.net/sites/default/files/imagecache/featured_book_block/97817899_cover_0.png"title="Big Data Analysis with Python from Packt" alt="Big Data Analysis with Python Book Cover"                        class="bookimage "
+                    />
+				</noscript>
+                <img src="/sites/default/files/blank.gif" data-original="https://dz13w8afd47il.cloudfront.net/sites/default/files/imagecache/featured_book_block/97817899_cover_0.png"
+                    class="bookimage "
+                    alt="Big Data Analysis with Python Book Cover" title="Big Data Analysis with Python from Packt"                />
+						<div class="book-block-title" itemprop="name">
+				Big Data Analysis with Python			</div>
+
+            <div class="book-block-price ">
+                <div class="book-block-price-full">
+                    € 26.23                </div>
+                <div class="book-block-price-discounted " itemprop="offers" itemtype="http://schema.org/Offer" itemscope>
+                    <meta itemprop="price" content="18.37"/>
+                    <meta itemprop="priceCurrency" content="EUR"/>
+                    € 18.37                </div>
+            </div>
+
+            <div class="book-block-overlay">
+                <a href="/big-data-and-business-intelligence/big-data-analysis-python">
+                    <div class="book-block-one-liner ellipsis" itemprop="description">
+                        Big Data Analysis with Python                    </div>
+                                            <div class="book-block-overlay-release-date">Apr 2019</div>
+                                                                <div class="book-block-overlay-product-length">276 pages</div>
+                                                                <div class="book-block-overlay-product-price">€ 18.37</div>
+                                    </a>
+                <div class="book-block-overlay-lower">
+                    <div class="feefo-review-star-rating book-block-rating">
+                                            </div>
+                    <div class="book-block-buttons ">
+                                                    <button type="submit"
+                                nid="35579"
+                                action="/big-data-and-business-intelligence/big-data-analysis-python"
+                                class="book-block-learn-more"
+                            >
+                                Learn more
+                            </button>
+                                                                            <button type="submit"
+                                nid="35579"
+                                action="/add_to_cart/35578"
+                                class="book-block-buy  "
+                            >
+                                Add to cart
+                            </button>
+                                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+								
+
+    <div
+        class="book-block-outer  book-block-position-3"
+        itemscope
+        itemtype="http://schema.org/Product"
+        data-product="true"
+        data-product-nid=""
+        data-product-id="9781789617450"
+        data-product-position="3"
+        data-product-price="18.37"
+        data-product-title="C Programming Cookbook"
+        data-product-type="ebooks"
+        data-product-brand="Packt Publishing"         data-product-category="Application Development"
+    >
+		<div class="book-block">
+			<div class="book-block-icon-books">
+			</div>
+							<noscript>
+                    <img src="https://dz13w8afd47il.cloudfront.net/sites/default/files/imagecache/featured_book_block/78961745cover_0.png"title="C Programming Cookbook from Packt" alt="C Programming Cookbook Book Cover"                        class="bookimage "
+                    />
+				</noscript>
+                <img src="/sites/default/files/blank.gif" data-original="https://dz13w8afd47il.cloudfront.net/sites/default/files/imagecache/featured_book_block/78961745cover_0.png"
+                    class="bookimage "
+                    alt="C Programming Cookbook Book Cover" title="C Programming Cookbook from Packt"                />
+						<div class="book-block-title" itemprop="name">
+				C Programming Cookbook			</div>
+
+            <div class="book-block-price ">
+                <div class="book-block-price-full">
+                    € 26.23                </div>
+                <div class="book-block-price-discounted " itemprop="offers" itemtype="http://schema.org/Offer" itemscope>
+                    <meta itemprop="price" content="18.37"/>
+                    <meta itemprop="priceCurrency" content="EUR"/>
+                    € 18.37                </div>
+            </div>
+
+            <div class="book-block-overlay">
+                <a href="/application-development/c-programming-cookbook-0">
+                    <div class="book-block-one-liner ellipsis" itemprop="description">
+                        C Programming Cookbook                    </div>
+                                            <div class="book-block-overlay-release-date">Mar 2019</div>
+                                                                <div class="book-block-overlay-product-length">344 pages</div>
+                                                                <div class="book-block-overlay-product-price">€ 18.37</div>
+                                    </a>
+                <div class="book-block-overlay-lower">
+                    <div class="feefo-review-star-rating book-block-rating">
+                                            </div>
+                    <div class="book-block-buttons ">
+                                                    <button type="submit"
+                                nid="37011"
+                                action="/application-development/c-programming-cookbook-0"
+                                class="book-block-learn-more"
+                            >
+                                Learn more
+                            </button>
+                                                                            <button type="submit"
+                                nid="37011"
+                                action="/add_to_cart/37009"
+                                class="book-block-buy  "
+                            >
+                                Add to cart
+                            </button>
+                                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+								
+
+    <div
+        class="book-block-outer  book-block-position-2 book-block-position-4"
+        itemscope
+        itemtype="http://schema.org/Product"
+        data-product="true"
+        data-product-nid=""
+        data-product-id="9781789530759"
+        data-product-position="4"
+        data-product-price="18.37"
+        data-product-title="TensorFlow 2.0 Quick Start Guide"
+        data-product-type="ebooks"
+        data-product-brand="Packt Publishing"         data-product-category="Big Data & Business Intelligence"
+    >
+		<div class="book-block last">
+			<div class="book-block-icon-books">
+			</div>
+							<noscript>
+                    <img src="https://dz13w8afd47il.cloudfront.net/sites/default/files/imagecache/featured_book_block/530759_cover.png"title="TensorFlow 2.0 Quick Start Guide from Packt" alt="TensorFlow 2.0 Quick Start Guide Book Cover"                        class="bookimage "
+                    />
+				</noscript>
+                <img src="/sites/default/files/blank.gif" data-original="https://dz13w8afd47il.cloudfront.net/sites/default/files/imagecache/featured_book_block/530759_cover.png"
+                    class="bookimage "
+                    alt="TensorFlow 2.0 Quick Start Guide Book Cover" title="TensorFlow 2.0 Quick Start Guide from Packt"                />
+						<div class="book-block-title" itemprop="name">
+				TensorFlow 2.0 Quick Start Guide			</div>
+
+            <div class="book-block-price ">
+                <div class="book-block-price-full">
+                    € 26.23                </div>
+                <div class="book-block-price-discounted " itemprop="offers" itemtype="http://schema.org/Offer" itemscope>
+                    <meta itemprop="price" content="18.37"/>
+                    <meta itemprop="priceCurrency" content="EUR"/>
+                    € 18.37                </div>
+            </div>
+
+            <div class="book-block-overlay">
+                <a href="/big-data-and-business-intelligence/tensorflow-20-quick-start-guide">
+                    <div class="book-block-one-liner ellipsis" itemprop="description">
+                        TensorFlow 2.0 Quick Start Guide                    </div>
+                                            <div class="book-block-overlay-release-date">Mar 2019</div>
+                                                                <div class="book-block-overlay-product-length">196 pages</div>
+                                                                <div class="book-block-overlay-product-price">€ 18.37</div>
+                                    </a>
+                <div class="book-block-overlay-lower">
+                    <div class="feefo-review-star-rating book-block-rating">
+                                            </div>
+                    <div class="book-block-buttons ">
+                                                    <button type="submit"
+                                nid="37111"
+                                action="/big-data-and-business-intelligence/tensorflow-20-quick-start-guide"
+                                class="book-block-learn-more"
+                            >
+                                Learn more
+                            </button>
+                                                                            <button type="submit"
+                                nid="37111"
+                                action="/add_to_cart/37110"
+                                class="book-block-buy  "
+                            >
+                                Add to cart
+                            </button>
+                                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+								
+
+    <div
+        class="book-block-outer  book-block-position-5"
+        itemscope
+        itemtype="http://schema.org/Product"
+        data-product="true"
+        data-product-nid=""
+        data-product-id="9781789536089"
+        data-product-position="5"
+        data-product-price="24.5"
+        data-product-title="Hands-On Neural Networks with Keras"
+        data-product-type="ebooks"
+        data-product-brand="Packt Publishing"         data-product-category="Big Data & Business Intelligence"
+    >
+		<div class="book-block">
+			<div class="book-block-icon-books">
+			</div>
+							<noscript>
+                    <img src="https://d255esdrn735hr.cloudfront.net/sites/default/files/imagecache/featured_book_block/B11726_MockupCover_0.png"title="Hands-On Neural Networks with Keras from Packt" alt="Hands-On Neural Networks with Keras Book Cover"                        class="bookimage "
+                    />
+				</noscript>
+                <img src="/sites/default/files/blank.gif" data-original="https://d255esdrn735hr.cloudfront.net/sites/default/files/imagecache/featured_book_block/B11726_MockupCover_0.png"
+                    class="bookimage "
+                    alt="Hands-On Neural Networks with Keras Book Cover" title="Hands-On Neural Networks with Keras from Packt"                />
+						<div class="book-block-title" itemprop="name">
+				Hands-On Neural Networks with Keras			</div>
+
+            <div class="book-block-price ">
+                <div class="book-block-price-full">
+                    € 34.98                </div>
+                <div class="book-block-price-discounted " itemprop="offers" itemtype="http://schema.org/Offer" itemscope>
+                    <meta itemprop="price" content="24.5"/>
+                    <meta itemprop="priceCurrency" content="EUR"/>
+                    € 24.50                </div>
+            </div>
+
+            <div class="book-block-overlay">
+                <a href="/big-data-and-business-intelligence/hands-neural-networks-keras">
+                    <div class="book-block-one-liner ellipsis" itemprop="description">
+                        Hands-On Neural Networks with Keras                    </div>
+                                            <div class="book-block-overlay-release-date">Mar 2019</div>
+                                                                <div class="book-block-overlay-product-length">462 pages</div>
+                                                                <div class="book-block-overlay-product-price">€ 24.50</div>
+                                    </a>
+                <div class="book-block-overlay-lower">
+                    <div class="feefo-review-star-rating book-block-rating">
+                                            </div>
+                    <div class="book-block-buttons ">
+                                                    <button type="submit"
+                                nid="37098"
+                                action="/big-data-and-business-intelligence/hands-neural-networks-keras"
+                                class="book-block-learn-more"
+                            >
+                                Learn more
+                            </button>
+                                                                            <button type="submit"
+                                nid="37098"
+                                action="/add_to_cart/37097"
+                                class="book-block-buy  "
+                            >
+                                Add to cart
+                            </button>
+                                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+								
+
+    <div
+        class="book-block-outer  book-block-position-2 book-block-position-3"
+        itemscope
+        itemtype="http://schema.org/Product"
+        data-product="true"
+        data-product-nid=""
+        data-product-id="9781789958096"
+        data-product-position="6"
+        data-product-price="30.62"
+        data-product-title="Learning Python Networking - Second Edition"
+        data-product-type="ebooks"
+        data-product-brand="Packt Publishing"         data-product-category="Networking & Servers"
+    >
+		<div class="book-block">
+			<div class="book-block-icon-books">
+			</div>
+							<noscript>
+                    <img src="https://d255esdrn735hr.cloudfront.net/sites/default/files/imagecache/featured_book_block/58096_cover_0.png"title="Learning Python Networking - Second Edition from Packt" alt="Learning Python Networking - Second Edition Book Cover"                        class="bookimage "
+                    />
+				</noscript>
+                <img src="/sites/default/files/blank.gif" data-original="https://d255esdrn735hr.cloudfront.net/sites/default/files/imagecache/featured_book_block/58096_cover_0.png"
+                    class="bookimage "
+                    alt="Learning Python Networking - Second Edition Book Cover" title="Learning Python Networking - Second Edition from Packt"                />
+						<div class="book-block-title" itemprop="name">
+				Learning Python Networking - Second Edition			</div>
+
+            <div class="book-block-price ">
+                <div class="book-block-price-full">
+                    € 43.73                </div>
+                <div class="book-block-price-discounted " itemprop="offers" itemtype="http://schema.org/Offer" itemscope>
+                    <meta itemprop="price" content="30.62"/>
+                    <meta itemprop="priceCurrency" content="EUR"/>
+                    € 30.62                </div>
+            </div>
+
+            <div class="book-block-overlay">
+                <a href="/networking-and-servers/learning-python-networking-second-edition">
+                    <div class="book-block-one-liner ellipsis" itemprop="description">
+                        Learning Python Networking - Second Edition                    </div>
+                                            <div class="book-block-overlay-release-date">Mar 2019</div>
+                                                                <div class="book-block-overlay-product-length">490 pages</div>
+                                                                <div class="book-block-overlay-product-price">€ 30.62</div>
+                                    </a>
+                <div class="book-block-overlay-lower">
+                    <div class="feefo-review-star-rating book-block-rating">
+                                            </div>
+                    <div class="book-block-buttons ">
+                                                    <button type="submit"
+                                nid="36855"
+                                action="/networking-and-servers/learning-python-networking-second-edition"
+                                class="book-block-learn-more"
+                            >
+                                Learn more
+                            </button>
+                                                                            <button type="submit"
+                                nid="36855"
+                                action="/add_to_cart/36854"
+                                class="book-block-buy  "
+                            >
+                                Add to cart
+                            </button>
+                                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+								
+
+    <div
+        class="book-block-outer "
+        itemscope
+        itemtype="http://schema.org/Product"
+        data-product="true"
+        data-product-nid=""
+        data-product-id="9781789951547"
+        data-product-position="7"
+        data-product-price="24.5"
+        data-product-title="Mastering Ansible - Third Edition"
+        data-product-type="ebooks"
+        data-product-brand="Packt Publishing"         data-product-category="Virtualization & Cloud"
+    >
+		<div class="book-block">
+			<div class="book-block-icon-books">
+			</div>
+							<noscript>
+                    <img src="https://d1ldz4te4covpm.cloudfront.net/sites/default/files/imagecache/featured_book_block/B12929_pub.png"title="Mastering Ansible - Third Edition from Packt" alt="Mastering Ansible - Third Edition Book Cover"                        class="bookimage "
+                    />
+				</noscript>
+                <img src="/sites/default/files/blank.gif" data-original="https://d1ldz4te4covpm.cloudfront.net/sites/default/files/imagecache/featured_book_block/B12929_pub.png"
+                    class="bookimage "
+                    alt="Mastering Ansible - Third Edition Book Cover" title="Mastering Ansible - Third Edition from Packt"                />
+						<div class="book-block-title" itemprop="name">
+				Mastering Ansible - Third Edition			</div>
+
+            <div class="book-block-price ">
+                <div class="book-block-price-full">
+                    € 34.98                </div>
+                <div class="book-block-price-discounted " itemprop="offers" itemtype="http://schema.org/Offer" itemscope>
+                    <meta itemprop="price" content="24.5"/>
+                    <meta itemprop="priceCurrency" content="EUR"/>
+                    € 24.50                </div>
+            </div>
+
+            <div class="book-block-overlay">
+                <a href="/virtualization-and-cloud/mastering-ansible-third-edition">
+                    <div class="book-block-one-liner ellipsis" itemprop="description">
+                        Mastering Ansible - Third Edition                    </div>
+                                            <div class="book-block-overlay-release-date">Mar 2019</div>
+                                                                <div class="book-block-overlay-product-length">412 pages</div>
+                                                                <div class="book-block-overlay-product-price">€ 24.50</div>
+                                    </a>
+                <div class="book-block-overlay-lower">
+                    <div class="feefo-review-star-rating book-block-rating">
+                                            </div>
+                    <div class="book-block-buttons ">
+                                                    <button type="submit"
+                                nid="36841"
+                                action="/virtualization-and-cloud/mastering-ansible-third-edition"
+                                class="book-block-learn-more"
+                            >
+                                Learn more
+                            </button>
+                                                                            <button type="submit"
+                                nid="36841"
+                                action="/add_to_cart/36840"
+                                class="book-block-buy  "
+                            >
+                                Add to cart
+                            </button>
+                                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+								
+
+    <div
+        class="book-block-outer  book-block-position-2 book-block-position-4"
+        itemscope
+        itemtype="http://schema.org/Product"
+        data-product="true"
+        data-product-nid=""
+        data-product-id="9781788624060"
+        data-product-position="8"
+        data-product-price="30.62"
+        data-product-title="Software Architect's Handbook"
+        data-product-type="ebooks"
+        data-product-brand="Packt Publishing"         data-product-category="Application Development"
+    >
+		<div class="book-block">
+			<div class="book-block-icon-books">
+			</div>
+							<noscript>
+                    <img src="https://d1ldz4te4covpm.cloudfront.net/sites/default/files/imagecache/featured_book_block/B09128_cover_new.png"title="Software Architect's Handbook from Packt" alt="Software Architect's Handbook Book Cover"                        class="bookimage "
+                    />
+				</noscript>
+                <img src="/sites/default/files/blank.gif" data-original="https://d1ldz4te4covpm.cloudfront.net/sites/default/files/imagecache/featured_book_block/B09128_cover_new.png"
+                    class="bookimage "
+                    alt="Software Architect's Handbook Book Cover" title="Software Architect's Handbook from Packt"                />
+						<div class="book-block-title" itemprop="name">
+				Software Architect's Handbook			</div>
+
+            <div class="book-block-price ">
+                <div class="book-block-price-full">
+                    € 43.73                </div>
+                <div class="book-block-price-discounted " itemprop="offers" itemtype="http://schema.org/Offer" itemscope>
+                    <meta itemprop="price" content="30.62"/>
+                    <meta itemprop="priceCurrency" content="EUR"/>
+                    € 30.62                </div>
+            </div>
+
+            <div class="book-block-overlay">
+                <a href="/application-development/software-architects-handbook">
+                    <div class="book-block-one-liner ellipsis" itemprop="description">
+                        Software Architect's Handbook                    </div>
+                                            <div class="book-block-overlay-release-date">Aug 2018</div>
+                                                                <div class="book-block-overlay-product-length">594 pages</div>
+                                                                <div class="book-block-overlay-product-price">€ 30.62</div>
+                                    </a>
+                <div class="book-block-overlay-lower">
+                    <div class="feefo-review-star-rating book-block-rating">
+                                            </div>
+                    <div class="book-block-buttons ">
+                                                    <button type="submit"
+                                nid="32637"
+                                action="/application-development/software-architects-handbook"
+                                class="book-block-learn-more"
+                            >
+                                Learn more
+                            </button>
+                                                                            <button type="submit"
+                                nid="32637"
+                                action="/add_to_cart/32636"
+                                class="book-block-buy  "
+                            >
+                                Add to cart
+                            </button>
+                                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+								
+
+    <div
+        class="book-block-outer  book-block-position-3"
+        itemscope
+        itemtype="http://schema.org/Product"
+        data-product="true"
+        data-product-nid=""
+        data-product-id="9781789344912"
+        data-product-position="9"
+        data-product-price="28"
+        data-product-title="Mastering OpenCV 4 with Python"
+        data-product-type="ebooks"
+        data-product-brand="Packt Publishing"         data-product-category="Application Development"
+    >
+		<div class="book-block">
+			<div class="book-block-icon-books">
+			</div>
+							<noscript>
+                    <img src="https://d1ldz4te4covpm.cloudfront.net/sites/default/files/imagecache/featured_book_block/978178934_cover.png"title="Mastering OpenCV 4 with Python from Packt" alt="Mastering OpenCV 4 with Python Book Cover"                        class="bookimage "
+                    />
+				</noscript>
+                <img src="/sites/default/files/blank.gif" data-original="https://d1ldz4te4covpm.cloudfront.net/sites/default/files/imagecache/featured_book_block/978178934_cover.png"
+                    class="bookimage "
+                    alt="Mastering OpenCV 4 with Python Book Cover" title="Mastering OpenCV 4 with Python from Packt"                />
+						<div class="book-block-title" itemprop="name">
+				Mastering OpenCV 4 with Python			</div>
+
+            <div class="book-block-price ">
+                <div class="book-block-price-full">
+                    € 39.98                </div>
+                <div class="book-block-price-discounted " itemprop="offers" itemtype="http://schema.org/Offer" itemscope>
+                    <meta itemprop="price" content="28"/>
+                    <meta itemprop="priceCurrency" content="EUR"/>
+                    € 28.00                </div>
+            </div>
+
+            <div class="book-block-overlay">
+                <a href="/application-development/mastering-opencv-4-python">
+                    <div class="book-block-one-liner ellipsis" itemprop="description">
+                        Mastering OpenCV 4 with Python                    </div>
+                                            <div class="book-block-overlay-release-date">Mar 2019</div>
+                                                                <div class="book-block-overlay-product-length">532 pages</div>
+                                                                <div class="book-block-overlay-product-price">€ 28.00</div>
+                                    </a>
+                <div class="book-block-overlay-lower">
+                    <div class="feefo-review-star-rating book-block-rating">
+                                            </div>
+                    <div class="book-block-buttons ">
+                                                    <button type="submit"
+                                nid="36853"
+                                action="/application-development/mastering-opencv-4-python"
+                                class="book-block-learn-more"
+                            >
+                                Learn more
+                            </button>
+                                                                            <button type="submit"
+                                nid="36853"
+                                action="/add_to_cart/36852"
+                                class="book-block-buy  "
+                            >
+                                Add to cart
+                            </button>
+                                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+								
+
+    <div
+        class="book-block-outer  book-block-position-2 book-block-position-5"
+        itemscope
+        itemtype="http://schema.org/Product"
+        data-product="true"
+        data-product-nid=""
+        data-product-id="9781788838849"
+        data-product-position="10"
+        data-product-price="27.12"
+        data-product-title="Mastering Reverse Engineering"
+        data-product-type="ebooks"
+        data-product-brand="Packt Publishing"         data-product-category="Networking & Servers"
+    >
+		<div class="book-block last">
+			<div class="book-block-icon-books">
+			</div>
+							<noscript>
+                    <img src="https://dz13w8afd47il.cloudfront.net/sites/default/files/imagecache/featured_book_block/9781788838849...png"title="Mastering Reverse Engineering from Packt" alt="Mastering Reverse Engineering Book Cover"                        class="bookimage "
+                    />
+				</noscript>
+                <img src="/sites/default/files/blank.gif" data-original="https://dz13w8afd47il.cloudfront.net/sites/default/files/imagecache/featured_book_block/9781788838849...png"
+                    class="bookimage "
+                    alt="Mastering Reverse Engineering Book Cover" title="Mastering Reverse Engineering from Packt"                />
+						<div class="book-block-title" itemprop="name">
+				Mastering Reverse Engineering			</div>
+
+            <div class="book-block-price ">
+                <div class="book-block-price-full">
+                    € 38.73                </div>
+                <div class="book-block-price-discounted " itemprop="offers" itemtype="http://schema.org/Offer" itemscope>
+                    <meta itemprop="price" content="27.12"/>
+                    <meta itemprop="priceCurrency" content="EUR"/>
+                    € 27.12                </div>
+            </div>
+
+            <div class="book-block-overlay">
+                <a href="/networking-and-servers/mastering-reverse-engineering">
+                    <div class="book-block-one-liner ellipsis" itemprop="description">
+                        Mastering Reverse Engineering                    </div>
+                                            <div class="book-block-overlay-release-date">Oct 2018</div>
+                                                                <div class="book-block-overlay-product-length">436 pages</div>
+                                                                <div class="book-block-overlay-product-price">€ 27.12</div>
+                                    </a>
+                <div class="book-block-overlay-lower">
+                    <div class="feefo-review-star-rating book-block-rating">
+                                            </div>
+                    <div class="book-block-buttons ">
+                                                    <button type="submit"
+                                nid="33104"
+                                action="/networking-and-servers/mastering-reverse-engineering"
+                                class="book-block-learn-more"
+                            >
+                                Learn more
+                            </button>
+                                                                            <button type="submit"
+                                nid="33104"
+                                action="/add_to_cart/33103"
+                                class="book-block-buy  "
+                            >
+                                Add to cart
+                            </button>
+                                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+			</div>
+	<div id="featured-books-clear"></div>
+</div></div>
+</div>
+<div class="panel-region-separator"></div><div class="panel-pane">
+<div class="content">
+<div class="tech-page-deal-panel tech-page-panel">
+    <div class="section-inner">
+        <div class="tech-page-row">
+            <h1></h1>
+
+            <a href="big-data-and-business-intelligence/machine-learning-r-third-edition">
+                <div class="deal-of-the-month-img">
+                    <noscript><img src="https://dz13w8afd47il.cloudfront.net/sites/default/files/imagecache/dotd_main_image/5864_cover.png" alt="" title="" class="bookimage imagecache imagecache-dotd_main_image" itemprop="url"/></noscript><img src="/sites/default/files/blank.gif" alt="" title="" data-original="https://dz13w8afd47il.cloudfront.net/sites/default/files/imagecache/dotd_main_image/5864_cover.png" class="bookimage imagecache imagecache-dotd_main_image" itemprop="url"/>                </div>
+            </a>
+
+            <div class="deal-of-the-month">
+                <h2>Machine Learning with R - Third Edition</h2>
+                <div class="book-top-block-info-authors">Brett Lantz</div>
+                                    <time itemprop="datePublished" datetime="2019-04-15">
+                        April 2019                    </time>
+                    <br />
+                                <p>
+                    Solve real-world data problems with R and machine learning <a href="big-data-and-business-intelligence/machine-learning-r-third-edition">Find out More</a>                <p/>
+                <div class="tech-page-deal-pricing left">
+                    <div class="book-top-pricing-main-price float-left">
+                        <div class="book-top-pricing-main-ebook-price ">
+                            €24.50                        </div>
+                    </div>
+                    <div class="dotd-rrp-price float-left">
+                        RRP €34.98                    </div>
+                </div>
+                <form action="/add_to_cart/36944"  accept-charset="UTF-8" method="post" id="packt-libraries-add-to-cart-form-ebook" class="packt-libraries-add-to-cart-form">
+<div>
+<div class="book-top-addtocart-inner">	
+	<div class="book-top-addtocart-logo"></div>
+	<div class="book-top-addtocart-separator"></div>
+	
+	<input type="submit" name="submit-36944" id="submit-36944" value="Add to Cart"  class=" form-submit" />
+	<input type="hidden" name="nids" id="nids" value="36944"  />
+
+<input type="hidden" name="qtys" id="qtys" value="1"  />
+
+<input type="hidden" name="upsell" id="edit-upsell" value="1"  />
+
+
+
+
+
+
+<input type="hidden" name="form_build_id" id="form-079befaf3e7afe7343a0a70e2a4a8130" value="form-079befaf3e7afe7343a0a70e2a4a8130"  />
+
+<input type="hidden" name="form_id" id="edit-packt-libraries-add-to-cart-form-ebook" value="packt_libraries_add_to_cart_form_ebook"  />
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+</div></form>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+<div class="panel-region-separator"></div><div class="panel-pane">
+<div class="content"><div id="featured-books">
+	<div id="featured-books-inner" class="section-inner">
+		<div id="featured-blurb">
+			<h1>Latest Releases</h1>
+			<div>
+				<p style="margin-top: -30px; margin-bottom: 5px;">Check out our latest releases and stay ahead of the competition. <strong>Updated for April 2019</strong>.</p>
+<h4><a href="/tech">Trending Technologies</a></h4>
+<table style="margin: 0; width: 100%;" cellpadding="5" align="center">
+<tbody>
+<tr>
+<td align="center"><a style="border: 10px solid #548ED7; color: #ffffff; background-color: #548ed7; text-align: center; text-decoration: none; display: block;" href="https://search.packtpub.com/?query=Angular&amp;sortBy=prod-packt-main-MostRecent&amp;refinementList%5Bproduct_type%5D%5B0%5D=Book&amp;refinementList%5Bproduct_type%5D%5B1%5D=Video&amp;refinementList%5Breleased%5D%5B0%5D=Available">Angular</a></td>
+<td align="center"><a style="border: 10px solid #548ED7; color: #ffffff; background-color: #548ed7; text-align: center; text-decoration: none; display: block;" href="https://search.packtpub.com/?query=C%23&amp;sortBy=prod-packt-main-MostRecent&amp;refinementList%5Bproduct_type%5D%5B0%5D=Book&amp;refinementList%5Bproduct_type%5D%5B1%5D=Video&amp;refinementList%5Breleased%5D%5B0%5D=Available">C#</a></td>
+</tr>
+<tr>
+<td align="center"><a style="border: 10px solid #548ED7; color: #ffffff; background-color: #548ed7; text-align: center; text-decoration: none; display: block;" href="https://search.packtpub.com/?query=Python&amp;sortBy=prod-packt-main-MostRecent&amp;refinementList%5Bproduct_type%5D%5B0%5D=Book&amp;refinementList%5Bproduct_type%5D%5B1%5D=Video&amp;refinementList%5Breleased%5D%5B0%5D=Available">Python</a></td>
+<td align="center"><a style="border: 10px solid #548ED7; color: #ffffff; background-color: #548ed7; text-align: center; text-decoration: none; display: block;" href="https://search.packtpub.com/?query=React&amp;sortBy=prod-packt-main-MostRecent&amp;refinementList%5Bproduct_type%5D%5B0%5D=Book&amp;refinementList%5Bproduct_type%5D%5B1%5D=Video&amp;refinementList%5Breleased%5D%5B0%5D=Available">React</a></td>
+</tr>
+<tr>
+<td align="center"><a style="border: 10px solid #548ED7; color: #ffffff; background-color: #548ed7; text-align: center; text-decoration: none; display: block;" href="https://search.packtpub.com/?query=Java&amp;sortBy=prod-packt-main-MostRecent&amp;refinementList%5Bproduct_type%5D%5B0%5D=Book&amp;refinementList%5Bproduct_type%5D%5B1%5D=Video&amp;refinementList%5Breleased%5D%5B0%5D=Available">Java</a></td>
+<td align="center"><a style="border: 10px solid #548ED7; color: #ffffff; background-color: #548ed7; text-align: center; text-decoration: none; display: block;" href="https://search.packtpub.com/?query=blockchain&amp;sortBy=prod-packt-main-MostRecent&amp;refinementList%5Bproduct_type%5D%5B0%5D=Book&amp;refinementList%5Bproduct_type%5D%5B1%5D=Video&amp;refinementList%5Breleased%5D%5B0%5D=Available">Blockchain</a></td>
+</tr>
+</tbody>
+</table>			</div>
+		</div>
+										
+
+    <div
+        class="book-block-outer "
+        itemscope
+        itemtype="http://schema.org/Product"
+        data-product="true"
+        data-product-nid=""
+        data-product-id="9781789530421"
+        data-product-position="11"
+        data-product-price="116.87"
+        data-product-title="Tableau in 7 Steps [Video]"
+        data-product-type="videos"
+        data-product-brand="Packt Publishing"         data-product-category="Big Data & Business Intelligence"
+    >
+		<div class="book-block">
+			<div class="book-block-icon-videos">
+			</div>
+							<noscript>
+                    <img src="https://dz13w8afd47il.cloudfront.net/sites/default/files/imagecache/featured_book_block/bookretailers/V11660_Low_new.png"title="Tableau in 7 Steps [Video] from Packt" alt="Tableau in 7 Steps [Video] Book Cover"                        class="bookimage "
+                    />
+				</noscript>
+                <img src="/sites/default/files/blank.gif" data-original="https://dz13w8afd47il.cloudfront.net/sites/default/files/imagecache/featured_book_block/bookretailers/V11660_Low_new.png"
+                    class="bookimage "
+                    alt="Tableau in 7 Steps [Video] Book Cover" title="Tableau in 7 Steps [Video] from Packt"                />
+						<div class="book-block-title" itemprop="name">
+				Tableau in 7 Steps [Video]			</div>
+
+            <div class="book-block-price ">
+                <div class="book-block-price-full">
+                    € 137.48                </div>
+                <div class="book-block-price-discounted " itemprop="offers" itemtype="http://schema.org/Offer" itemscope>
+                    <meta itemprop="price" content="116.87"/>
+                    <meta itemprop="priceCurrency" content="EUR"/>
+                    € 116.87                </div>
+            </div>
+
+            <div class="book-block-overlay">
+                <a href="/big-data-and-business-intelligence/tableau-7-steps-video">
+                    <div class="book-block-one-liner ellipsis" itemprop="description">
+                        Tableau in 7 Steps [Video]                    </div>
+                                            <div class="book-block-overlay-release-date">Apr 2019</div>
+                                                                <div class="book-block-overlay-product-length">2 hours 40 minutes</div>
+                                                                <div class="book-block-overlay-product-price">€ 116.87</div>
+                                    </a>
+                <div class="book-block-overlay-lower">
+                    <div class="feefo-review-star-rating book-block-rating">
+                                            </div>
+                    <div class="book-block-buttons ">
+                                                    <button type="submit"
+                                nid="37338"
+                                action="/big-data-and-business-intelligence/tableau-7-steps-video"
+                                class="book-block-learn-more"
+                            >
+                                Learn more
+                            </button>
+                                                                            <button type="submit"
+                                nid="37338"
+                                action="/add_to_cart/37338"
+                                class="book-block-buy  "
+                            >
+                                Add to cart
+                            </button>
+                                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+								
+
+    <div
+        class="book-block-outer  book-block-position-2"
+        itemscope
+        itemtype="http://schema.org/Product"
+        data-product="true"
+        data-product-nid=""
+        data-product-id="9781789801156"
+        data-product-position="12"
+        data-product-price="25.37"
+        data-product-title="Natural Language Processing with Java Cookbook"
+        data-product-type="ebooks"
+        data-product-brand="Packt Publishing"         data-product-category="Big Data & Business Intelligence"
+    >
+		<div class="book-block">
+			<div class="book-block-icon-books">
+			</div>
+							<noscript>
+                    <img src="https://d1ldz4te4covpm.cloudfront.net/sites/default/files/imagecache/featured_book_block/01156cover.png"title="Natural Language Processing with Java Cookbook from Packt" alt="Natural Language Processing with Java Cookbook Book Cover"                        class="bookimage "
+                    />
+				</noscript>
+                <img src="/sites/default/files/blank.gif" data-original="https://d1ldz4te4covpm.cloudfront.net/sites/default/files/imagecache/featured_book_block/01156cover.png"
+                    class="bookimage "
+                    alt="Natural Language Processing with Java Cookbook Book Cover" title="Natural Language Processing with Java Cookbook from Packt"                />
+						<div class="book-block-title" itemprop="name">
+				Natural Language Processing with Java Cookbook			</div>
+
+            <div class="book-block-price ">
+                <div class="book-block-price-full">
+                    € 36.23                </div>
+                <div class="book-block-price-discounted " itemprop="offers" itemtype="http://schema.org/Offer" itemscope>
+                    <meta itemprop="price" content="25.37"/>
+                    <meta itemprop="priceCurrency" content="EUR"/>
+                    € 25.37                </div>
+            </div>
+
+            <div class="book-block-overlay">
+                <a href="/big-data-and-business-intelligence/natural-language-processing-java-cookbook">
+                    <div class="book-block-one-liner ellipsis" itemprop="description">
+                        Natural Language Processing with Java Cookbook                    </div>
+                                            <div class="book-block-overlay-release-date">Apr 2019</div>
+                                                                <div class="book-block-overlay-product-length">386 pages</div>
+                                                                <div class="book-block-overlay-product-price">€ 25.37</div>
+                                    </a>
+                <div class="book-block-overlay-lower">
+                    <div class="feefo-review-star-rating book-block-rating">
+                                            </div>
+                    <div class="book-block-buttons ">
+                                                    <button type="submit"
+                                nid="37334"
+                                action="/big-data-and-business-intelligence/natural-language-processing-java-cookbook"
+                                class="book-block-learn-more"
+                            >
+                                Learn more
+                            </button>
+                                                                            <button type="submit"
+                                nid="37334"
+                                action="/add_to_cart/37333"
+                                class="book-block-buy  "
+                            >
+                                Add to cart
+                            </button>
+                                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+								
+
+    <div
+        class="book-block-outer  book-block-position-3"
+        itemscope
+        itemtype="http://schema.org/Product"
+        data-product="true"
+        data-product-nid=""
+        data-product-id="9781789955286"
+        data-product-position="13"
+        data-product-price="18.37"
+        data-product-title="Big Data Analysis with Python"
+        data-product-type="ebooks"
+        data-product-brand="Packt Publishing"         data-product-category="Big Data & Business Intelligence"
+    >
+		<div class="book-block">
+			<div class="book-block-icon-books">
+			</div>
+							<noscript>
+                    <img src="https://dz13w8afd47il.cloudfront.net/sites/default/files/imagecache/featured_book_block/97817899_cover_0.png"title="Big Data Analysis with Python from Packt" alt="Big Data Analysis with Python Book Cover"                        class="bookimage "
+                    />
+				</noscript>
+                <img src="/sites/default/files/blank.gif" data-original="https://dz13w8afd47il.cloudfront.net/sites/default/files/imagecache/featured_book_block/97817899_cover_0.png"
+                    class="bookimage "
+                    alt="Big Data Analysis with Python Book Cover" title="Big Data Analysis with Python from Packt"                />
+						<div class="book-block-title" itemprop="name">
+				Big Data Analysis with Python			</div>
+
+            <div class="book-block-price ">
+                <div class="book-block-price-full">
+                    € 26.23                </div>
+                <div class="book-block-price-discounted " itemprop="offers" itemtype="http://schema.org/Offer" itemscope>
+                    <meta itemprop="price" content="18.37"/>
+                    <meta itemprop="priceCurrency" content="EUR"/>
+                    € 18.37                </div>
+            </div>
+
+            <div class="book-block-overlay">
+                <a href="/big-data-and-business-intelligence/big-data-analysis-python">
+                    <div class="book-block-one-liner ellipsis" itemprop="description">
+                        Big Data Analysis with Python                    </div>
+                                            <div class="book-block-overlay-release-date">Apr 2019</div>
+                                                                <div class="book-block-overlay-product-length">276 pages</div>
+                                                                <div class="book-block-overlay-product-price">€ 18.37</div>
+                                    </a>
+                <div class="book-block-overlay-lower">
+                    <div class="feefo-review-star-rating book-block-rating">
+                                            </div>
+                    <div class="book-block-buttons ">
+                                                    <button type="submit"
+                                nid="35579"
+                                action="/big-data-and-business-intelligence/big-data-analysis-python"
+                                class="book-block-learn-more"
+                            >
+                                Learn more
+                            </button>
+                                                                            <button type="submit"
+                                nid="35579"
+                                action="/add_to_cart/35578"
+                                class="book-block-buy  "
+                            >
+                                Add to cart
+                            </button>
+                                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+								
+
+    <div
+        class="book-block-outer  book-block-position-2 book-block-position-4"
+        itemscope
+        itemtype="http://schema.org/Product"
+        data-product="true"
+        data-product-nid=""
+        data-product-id="9781838559571"
+        data-product-position="14"
+        data-product-price="116.87"
+        data-product-title="Hands-On Kubernetes Networking [Video]"
+        data-product-type="videos"
+        data-product-brand="Packt Publishing"         data-product-category="Virtualization & Cloud"
+    >
+		<div class="book-block last">
+			<div class="book-block-icon-videos">
+			</div>
+							<noscript>
+                    <img src="https://d255esdrn735hr.cloudfront.net/sites/default/files/imagecache/featured_book_block/bookretailers/V13723_Low.png"title="Hands-On Kubernetes Networking [Video] from Packt" alt="Hands-On Kubernetes Networking [Video] Book Cover"                        class="bookimage "
+                    />
+				</noscript>
+                <img src="/sites/default/files/blank.gif" data-original="https://d255esdrn735hr.cloudfront.net/sites/default/files/imagecache/featured_book_block/bookretailers/V13723_Low.png"
+                    class="bookimage "
+                    alt="Hands-On Kubernetes Networking [Video] Book Cover" title="Hands-On Kubernetes Networking [Video] from Packt"                />
+						<div class="book-block-title" itemprop="name">
+				Hands-On Kubernetes Networking [Video]			</div>
+
+            <div class="book-block-price ">
+                <div class="book-block-price-full">
+                    € 137.48                </div>
+                <div class="book-block-price-discounted " itemprop="offers" itemtype="http://schema.org/Offer" itemscope>
+                    <meta itemprop="price" content="116.87"/>
+                    <meta itemprop="priceCurrency" content="EUR"/>
+                    € 116.87                </div>
+            </div>
+
+            <div class="book-block-overlay">
+                <a href="/virtualization-and-cloud/hands-kubernetes-networking-video">
+                    <div class="book-block-one-liner ellipsis" itemprop="description">
+                        Hands-On Kubernetes Networking [Video]                    </div>
+                                            <div class="book-block-overlay-release-date">Apr 2019</div>
+                                                                <div class="book-block-overlay-product-length">1 hour 24 minutes</div>
+                                                                <div class="book-block-overlay-product-price">€ 116.87</div>
+                                    </a>
+                <div class="book-block-overlay-lower">
+                    <div class="feefo-review-star-rating book-block-rating">
+                                            </div>
+                    <div class="book-block-buttons ">
+                                                    <button type="submit"
+                                nid="37222"
+                                action="/virtualization-and-cloud/hands-kubernetes-networking-video"
+                                class="book-block-learn-more"
+                            >
+                                Learn more
+                            </button>
+                                                                            <button type="submit"
+                                nid="37222"
+                                action="/add_to_cart/37222"
+                                class="book-block-buy  "
+                            >
+                                Add to cart
+                            </button>
+                                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+								
+
+    <div
+        class="book-block-outer  book-block-position-5"
+        itemscope
+        itemtype="http://schema.org/Product"
+        data-product="true"
+        data-product-nid=""
+        data-product-id="9781838551520"
+        data-product-position="15"
+        data-product-price="116.87"
+        data-product-title="Unity Game Development in 4 hours [Video]"
+        data-product-type="videos"
+        data-product-brand="Packt Publishing"         data-product-category="Game Development"
+    >
+		<div class="book-block">
+			<div class="book-block-icon-videos">
+			</div>
+							<noscript>
+                    <img src="https://d255esdrn735hr.cloudfront.net/sites/default/files/imagecache/featured_book_block/bookretailers/V13739_Low.png"title="Unity Game Development in 4 hours [Video] from Packt" alt="Unity Game Development in 4 hours [Video] Book Cover"                        class="bookimage "
+                    />
+				</noscript>
+                <img src="/sites/default/files/blank.gif" data-original="https://d255esdrn735hr.cloudfront.net/sites/default/files/imagecache/featured_book_block/bookretailers/V13739_Low.png"
+                    class="bookimage "
+                    alt="Unity Game Development in 4 hours [Video] Book Cover" title="Unity Game Development in 4 hours [Video] from Packt"                />
+						<div class="book-block-title" itemprop="name">
+				Unity Game Development in 4 hours [Video]			</div>
+
+            <div class="book-block-price ">
+                <div class="book-block-price-full">
+                    € 137.48                </div>
+                <div class="book-block-price-discounted " itemprop="offers" itemtype="http://schema.org/Offer" itemscope>
+                    <meta itemprop="price" content="116.87"/>
+                    <meta itemprop="priceCurrency" content="EUR"/>
+                    € 116.87                </div>
+            </div>
+
+            <div class="book-block-overlay">
+                <a href="/game-development/unity-game-development-4-hours-video">
+                    <div class="book-block-one-liner ellipsis" itemprop="description">
+                        Unity Game Development in 4 hours [Video]                    </div>
+                                            <div class="book-block-overlay-release-date">Apr 2019</div>
+                                                                <div class="book-block-overlay-product-length">3 hours 37 minutes</div>
+                                                                <div class="book-block-overlay-product-price">€ 116.87</div>
+                                    </a>
+                <div class="book-block-overlay-lower">
+                    <div class="feefo-review-star-rating book-block-rating">
+                                            </div>
+                    <div class="book-block-buttons ">
+                                                    <button type="submit"
+                                nid="37257"
+                                action="/game-development/unity-game-development-4-hours-video"
+                                class="book-block-learn-more"
+                            >
+                                Learn more
+                            </button>
+                                                                            <button type="submit"
+                                nid="37257"
+                                action="/add_to_cart/37257"
+                                class="book-block-buy  "
+                            >
+                                Add to cart
+                            </button>
+                                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+								
+
+    <div
+        class="book-block-outer  book-block-position-2 book-block-position-3"
+        itemscope
+        itemtype="http://schema.org/Product"
+        data-product="true"
+        data-product-nid=""
+        data-product-id="9781789803303"
+        data-product-position="16"
+        data-product-price="25.37"
+        data-product-title="Powershell Core 6.2 Cookbook"
+        data-product-type="ebooks"
+        data-product-brand="Packt Publishing"         data-product-category="Networking & Servers"
+    >
+		<div class="book-block">
+			<div class="book-block-icon-books">
+			</div>
+							<noscript>
+                    <img src="https://d255esdrn735hr.cloudfront.net/sites/default/files/imagecache/featured_book_block/B12352.png"title="Powershell Core 6.2 Cookbook from Packt" alt="Powershell Core 6.2 Cookbook Book Cover"                        class="bookimage "
+                    />
+				</noscript>
+                <img src="/sites/default/files/blank.gif" data-original="https://d255esdrn735hr.cloudfront.net/sites/default/files/imagecache/featured_book_block/B12352.png"
+                    class="bookimage "
+                    alt="Powershell Core 6.2 Cookbook Book Cover" title="Powershell Core 6.2 Cookbook from Packt"                />
+						<div class="book-block-title" itemprop="name">
+				Powershell Core 6.2 Cookbook			</div>
+
+            <div class="book-block-price ">
+                <div class="book-block-price-full">
+                    € 36.23                </div>
+                <div class="book-block-price-discounted " itemprop="offers" itemtype="http://schema.org/Offer" itemscope>
+                    <meta itemprop="price" content="25.37"/>
+                    <meta itemprop="priceCurrency" content="EUR"/>
+                    € 25.37                </div>
+            </div>
+
+            <div class="book-block-overlay">
+                <a href="/networking-and-servers/powershell-core-62-cookbook">
+                    <div class="book-block-one-liner ellipsis" itemprop="description">
+                        Powershell Core 6.2 Cookbook                    </div>
+                                            <div class="book-block-overlay-release-date">Apr 2019</div>
+                                                                <div class="book-block-overlay-product-length">372 pages</div>
+                                                                <div class="book-block-overlay-product-price">€ 25.37</div>
+                                    </a>
+                <div class="book-block-overlay-lower">
+                    <div class="feefo-review-star-rating book-block-rating">
+                                            </div>
+                    <div class="book-block-buttons ">
+                                                    <button type="submit"
+                                nid="35652"
+                                action="/networking-and-servers/powershell-core-62-cookbook"
+                                class="book-block-learn-more"
+                            >
+                                Learn more
+                            </button>
+                                                                            <button type="submit"
+                                nid="35652"
+                                action="/add_to_cart/35651"
+                                class="book-block-buy  "
+                            >
+                                Add to cart
+                            </button>
+                                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+								
+
+    <div
+        class="book-block-outer "
+        itemscope
+        itemtype="http://schema.org/Product"
+        data-product="true"
+        data-product-nid=""
+        data-product-id="9781789345803"
+        data-product-position="17"
+        data-product-price="21.87"
+        data-product-title="Hands-On Q-Learning with Python"
+        data-product-type="ebooks"
+        data-product-brand="Packt Publishing"         data-product-category="Big Data & Business Intelligence"
+    >
+		<div class="book-block">
+			<div class="book-block-icon-books">
+			</div>
+							<noscript>
+                    <img src="https://d1ldz4te4covpm.cloudfront.net/sites/default/files/imagecache/featured_book_block/cover_34.png"title="Hands-On Q-Learning with Python from Packt" alt="Hands-On Q-Learning with Python Book Cover"                        class="bookimage "
+                    />
+				</noscript>
+                <img src="/sites/default/files/blank.gif" data-original="https://d1ldz4te4covpm.cloudfront.net/sites/default/files/imagecache/featured_book_block/cover_34.png"
+                    class="bookimage "
+                    alt="Hands-On Q-Learning with Python Book Cover" title="Hands-On Q-Learning with Python from Packt"                />
+						<div class="book-block-title" itemprop="name">
+				Hands-On Q-Learning with Python			</div>
+
+            <div class="book-block-price ">
+                <div class="book-block-price-full">
+                    € 31.23                </div>
+                <div class="book-block-price-discounted " itemprop="offers" itemtype="http://schema.org/Offer" itemscope>
+                    <meta itemprop="price" content="21.87"/>
+                    <meta itemprop="priceCurrency" content="EUR"/>
+                    € 21.87                </div>
+            </div>
+
+            <div class="book-block-overlay">
+                <a href="/big-data-and-business-intelligence/hands-q-learning-python">
+                    <div class="book-block-one-liner ellipsis" itemprop="description">
+                        Hands-On Q-Learning with Python                    </div>
+                                            <div class="book-block-overlay-release-date">Apr 2019</div>
+                                                                <div class="book-block-overlay-product-length">212 pages</div>
+                                                                <div class="book-block-overlay-product-price">€ 21.87</div>
+                                    </a>
+                <div class="book-block-overlay-lower">
+                    <div class="feefo-review-star-rating book-block-rating">
+                                            </div>
+                    <div class="book-block-buttons ">
+                                                    <button type="submit"
+                                nid="37167"
+                                action="/big-data-and-business-intelligence/hands-q-learning-python"
+                                class="book-block-learn-more"
+                            >
+                                Learn more
+                            </button>
+                                                                            <button type="submit"
+                                nid="37167"
+                                action="/add_to_cart/37166"
+                                class="book-block-buy  "
+                            >
+                                Add to cart
+                            </button>
+                                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+								
+
+    <div
+        class="book-block-outer  book-block-position-2 book-block-position-4"
+        itemscope
+        itemtype="http://schema.org/Product"
+        data-product="true"
+        data-product-nid=""
+        data-product-id="9781789615401"
+        data-product-position="18"
+        data-product-price="25.37"
+        data-product-title="Android Programming with Kotlin for Beginners"
+        data-product-type="ebooks"
+        data-product-brand="Packt Publishing"         data-product-category="Application Development"
+    >
+		<div class="book-block">
+			<div class="book-block-icon-books">
+			</div>
+							<noscript>
+                    <img src="https://d1ldz4te4covpm.cloudfront.net/sites/default/files/imagecache/featured_book_block/B12806NewCov.png"title="Android Programming with Kotlin for Beginners from Packt" alt="Android Programming with Kotlin for Beginners Book Cover"                        class="bookimage "
+                    />
+				</noscript>
+                <img src="/sites/default/files/blank.gif" data-original="https://d1ldz4te4covpm.cloudfront.net/sites/default/files/imagecache/featured_book_block/B12806NewCov.png"
+                    class="bookimage "
+                    alt="Android Programming with Kotlin for Beginners Book Cover" title="Android Programming with Kotlin for Beginners from Packt"                />
+						<div class="book-block-title" itemprop="name">
+				Android Programming with Kotlin for Beginners			</div>
+
+            <div class="book-block-price ">
+                <div class="book-block-price-full">
+                    € 36.23                </div>
+                <div class="book-block-price-discounted " itemprop="offers" itemtype="http://schema.org/Offer" itemscope>
+                    <meta itemprop="price" content="25.37"/>
+                    <meta itemprop="priceCurrency" content="EUR"/>
+                    € 25.37                </div>
+            </div>
+
+            <div class="book-block-overlay">
+                <a href="/application-development/android-programming-kotlin-beginners">
+                    <div class="book-block-one-liner ellipsis" itemprop="description">
+                        Android Programming with Kotlin for Beginners                    </div>
+                                            <div class="book-block-overlay-release-date">Apr 2019</div>
+                                                                <div class="book-block-overlay-product-length">698 pages</div>
+                                                                <div class="book-block-overlay-product-price">€ 25.37</div>
+                                    </a>
+                <div class="book-block-overlay-lower">
+                    <div class="feefo-review-star-rating book-block-rating">
+                                            </div>
+                    <div class="book-block-buttons ">
+                                                    <button type="submit"
+                                nid="37484"
+                                action="/application-development/android-programming-kotlin-beginners"
+                                class="book-block-learn-more"
+                            >
+                                Learn more
+                            </button>
+                                                                            <button type="submit"
+                                nid="37484"
+                                action="/add_to_cart/37483"
+                                class="book-block-buy  "
+                            >
+                                Add to cart
+                            </button>
+                                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+								
+
+    <div
+        class="book-block-outer  book-block-position-3"
+        itemscope
+        itemtype="http://schema.org/Product"
+        data-product="true"
+        data-product-nid=""
+        data-product-id="9781789531374"
+        data-product-position="19"
+        data-product-price="21.87"
+        data-product-title="Mastering Ethereum"
+        data-product-type="ebooks"
+        data-product-brand="Packt Publishing"         data-product-category="Big Data & Business Intelligence"
+    >
+		<div class="book-block">
+			<div class="book-block-icon-books">
+			</div>
+							<noscript>
+                    <img src="https://d1ldz4te4covpm.cloudfront.net/sites/default/files/imagecache/featured_book_block/coverB11696.png"title="Mastering Ethereum from Packt" alt="Mastering Ethereum Book Cover"                        class="bookimage "
+                    />
+				</noscript>
+                <img src="/sites/default/files/blank.gif" data-original="https://d1ldz4te4covpm.cloudfront.net/sites/default/files/imagecache/featured_book_block/coverB11696.png"
+                    class="bookimage "
+                    alt="Mastering Ethereum Book Cover" title="Mastering Ethereum from Packt"                />
+						<div class="book-block-title" itemprop="name">
+				Mastering Ethereum			</div>
+
+            <div class="book-block-price ">
+                <div class="book-block-price-full">
+                    € 31.23                </div>
+                <div class="book-block-price-discounted " itemprop="offers" itemtype="http://schema.org/Offer" itemscope>
+                    <meta itemprop="price" content="21.87"/>
+                    <meta itemprop="priceCurrency" content="EUR"/>
+                    € 21.87                </div>
+            </div>
+
+            <div class="book-block-overlay">
+                <a href="/big-data-and-business-intelligence/mastering-ethereum">
+                    <div class="book-block-one-liner ellipsis" itemprop="description">
+                        Mastering Ethereum                    </div>
+                                            <div class="book-block-overlay-release-date">Apr 2019</div>
+                                                                <div class="book-block-overlay-product-length">490 pages</div>
+                                                                <div class="book-block-overlay-product-price">€ 21.87</div>
+                                    </a>
+                <div class="book-block-overlay-lower">
+                    <div class="feefo-review-star-rating book-block-rating">
+                                            </div>
+                    <div class="book-block-buttons ">
+                                                    <button type="submit"
+                                nid="37157"
+                                action="/big-data-and-business-intelligence/mastering-ethereum"
+                                class="book-block-learn-more"
+                            >
+                                Learn more
+                            </button>
+                                                                            <button type="submit"
+                                nid="37157"
+                                action="/add_to_cart/37156"
+                                class="book-block-buy  "
+                            >
+                                Add to cart
+                            </button>
+                                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+								
+
+    <div
+        class="book-block-outer  book-block-position-2 book-block-position-5"
+        itemscope
+        itemtype="http://schema.org/Product"
+        data-product="true"
+        data-product-nid=""
+        data-product-id="9781838555078"
+        data-product-position="20"
+        data-product-price="21.87"
+        data-product-title="Applied Deep Learning with Keras"
+        data-product-type="ebooks"
+        data-product-brand="Packt Publishing"         data-product-category="Big Data & Business Intelligence"
+    >
+		<div class="book-block last">
+			<div class="book-block-icon-books">
+			</div>
+							<noscript>
+                    <img src="https://d1ldz4te4covpm.cloudfront.net/sites/default/files/imagecache/featured_book_block/555078cov_Low res.png"title="Applied Deep Learning with Keras from Packt" alt="Applied Deep Learning with Keras Book Cover"                        class="bookimage "
+                    />
+				</noscript>
+                <img src="/sites/default/files/blank.gif" data-original="https://d1ldz4te4covpm.cloudfront.net/sites/default/files/imagecache/featured_book_block/555078cov_Low res.png"
+                    class="bookimage "
+                    alt="Applied Deep Learning with Keras Book Cover" title="Applied Deep Learning with Keras from Packt"                />
+						<div class="book-block-title" itemprop="name">
+				Applied Deep Learning with Keras			</div>
+
+            <div class="book-block-price ">
+                <div class="book-block-price-full">
+                    € 31.23                </div>
+                <div class="book-block-price-discounted " itemprop="offers" itemtype="http://schema.org/Offer" itemscope>
+                    <meta itemprop="price" content="21.87"/>
+                    <meta itemprop="priceCurrency" content="EUR"/>
+                    € 21.87                </div>
+            </div>
+
+            <div class="book-block-overlay">
+                <a href="/big-data-and-business-intelligence/applied-deep-learning-keras">
+                    <div class="book-block-one-liner ellipsis" itemprop="description">
+                        Applied Deep Learning with Keras                    </div>
+                                            <div class="book-block-overlay-release-date">Apr 2019</div>
+                                                                <div class="book-block-overlay-product-length">412 pages</div>
+                                                                <div class="book-block-overlay-product-price">€ 21.87</div>
+                                    </a>
+                <div class="book-block-overlay-lower">
+                    <div class="feefo-review-star-rating book-block-rating">
+                                            </div>
+                    <div class="book-block-buttons ">
+                                                    <button type="submit"
+                                nid="36231"
+                                action="/big-data-and-business-intelligence/applied-deep-learning-keras"
+                                class="book-block-learn-more"
+                            >
+                                Learn more
+                            </button>
+                                                                            <button type="submit"
+                                nid="36231"
+                                action="/add_to_cart/36229"
+                                class="book-block-buy  "
+                            >
+                                Add to cart
+                            </button>
+                                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+			</div>
+	<div id="featured-books-clear"></div>
+</div></div>
+</div>
+</div>
+  </div>
+</div>
+					 								</div>
+						<!-- /#content -->
+					
+									</div>
+			</div>
+									
+						
+			<!-- #footer -->
+			<div id="footer" class="region region-footer">
+				<div class="section-inner cf">
+					<div class="footer-main-block">
+						<div class="footer-section-inner">
+														<h2>Contact Us</h2>
+							<p>Get in touch&nbsp;<a href="/books/info/packt/contact-us">here</a>&nbsp;<span style="font-family: Calibri, sans-serif; font-size: 11pt; line-height: 115%;">if you have any queries or issues.</span></p>						</div>
+					</div>
+					<div class="footer-main-block middle-footer-block">
+						<div class="footer-section-inner">
+														<h2>Help & Support</h2>
+							<p class="MsoNormal">Click&nbsp;<a href="/books/info/packt/faq">here</a>&nbsp;for FAQs, order information, T&amp;Cs, errata and code downloads.</p>						</div>
+					</div>
+					<div class="footer-main-block">
+						<div class="footer-section-inner">
+														<h2>Alerts & Offers</h2>
+							<p class="MsoNormal">Sign up to our emails for regular updates, bespoke offers, exclusive discounts and great free content.</p>							<form  accept-charset="UTF-8" method="post" id="packt-libraries-footer-newsletter-form">
+<div><div class="form-item">
+ 
+</div>
+<div class="form-item" id="edit-mail-1-wrapper">
+ <input type="text" maxlength="128" name="mail" id="edit-mail-1" size="60" value="" placeholder="Enter your email address" class="form-text" />
+</div>
+<input type="hidden" name="newsletter_id" id="edit-newsletter-id-1" value="60"  />
+<input type="submit" name="op" id="edit-submit-5" value="Submit"  class=" form-submit" />
+<input type="hidden" name="form_build_id" id="form-8f5826b116571e311c020992bc37166d" value="form-8f5826b116571e311c020992bc37166d"  />
+<input type="hidden" name="form_id" id="edit-packt-libraries-footer-newsletter-form" value="packt_libraries_footer_newsletter_form"  />
+
+</div></form>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- /#footer -->
+
+			<!-- #footer-bottom -->
+			<div id="footer-bottom" class="region region-footer-bottom">
+				<div class="section-inner cf">
+					<div class="footer-bottom-block">
+						<div class="footer-bottom-block-left">
+							&copy; Packt Publishing Limited.
+							<br />
+							All Rights Reserved
+						</div>
+					</div>
+					<div class="footer-bottom-block footer-contact-us">
+						<a href="/books/info/packt/contact-us">Contact Us</a>
+					</div>
+					<div class="footer-bottom-block">
+						View our <a href="/books/info/packt/cookies">Cookie Policy</a>
+					</div>
+					<div class="footer-bottom-block">
+						Our <a href="/books/info/packt/privacy">Privacy Policy</a>
+					</div>
+					<div class="footer-bottom-block">
+						<a target="_blank" href="http://www.linkedin.com/company/packt-publishing" class="footer-social linkedin"></a>
+						<a target="_blank" href="http://twitter.com/packtpub" class="footer-social twitter"></a>
+						<a target="_blank" href="http://www.facebook.com/packtpub" class="footer-social facebook"></a>
+						<a target="_blank" href="https://www.youtube.com/user/packt1000" class="footer-social youtube"></a>
+					</div>
+				</div>
+			</div>
+			<!-- /#footer-bottom -->
+			<script>
+			(function (w,i,d,g,e,t,s)
+			{w[d] = w[d]||[];t= i.createElement(g); t.async=1;t.src=e;s=i.getElementsByTagName(g)[0];s.parentNode.insertBefore(t, s); }
+			)(window, document, '_gscq','script','//widgets.getsitecontrol.com/18511/script.js');
+			</script>
+			
+						
+						
+		</div>
+		<!-- /#page -->
+		
+		<div id="content-overlay"></div>
+		
+				
+	</body>
+</html>
