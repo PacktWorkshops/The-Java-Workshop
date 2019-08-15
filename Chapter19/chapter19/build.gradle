@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+group 'com.packtpub.reflection'
+version '1.0'
+
+sourceCompatibility = 11
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+
+    implementation group: 'com.fasterxml.jackson.core',
+            name: 'jackson-databind', version: '2.9.8'
+}
