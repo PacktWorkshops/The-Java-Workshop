@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<cities>
+    <city>
+        <name>London</name>
+        <country>United Kingdom</country>
+        <summertime-high-temp>20.4 C</summertime-high-temp>
+        <in-year-2100>
+            <with-moderate-emission-cuts>
+                <name>Paris</name>
+                <country>France</country>
+                <summertime-high-temp>22.7 C</summertime-high-temp>
+            </with-moderate-emission-cuts>
+            <with-no-emission-cuts>
+                <name>Milan</name>
+                <country>Italy</country>
+                <summertime-high-temp>25.2 C</summertime-high-temp>
+            </with-no-emission-cuts>
+        </in-year-2100>
+    </city>
+    <city>
+        <name>Stockholm</name>
+        <country>Sweden</country>
+        <summertime-high-temp>19.3 C</summertime-high-temp>
+        <in-year-2100>
+            <with-moderate-emission-cuts>
+                <name>Vilnius</name>
+                <country>Lithuania</country>
+                <summertime-high-temp>21.7 C</summertime-high-temp>
+            </with-moderate-emission-cuts>
+            <with-no-emission-cuts>
+                <name>Kiev</name>
+                <country>Ukraine</country>
+                <summertime-high-temp>24.2 C</summertime-high-temp>
+            </with-no-emission-cuts>
+        </in-year-2100>
+    </city>
+    <city>
+        <name>New York</name>
+        <country>US</country>
+        <summertime-high-temp>27.7 C</summertime-high-temp>
+        <in-year-2100>
+            <with-moderate-emission-cuts>
+                <name>Belize City</name>
+                <country>Belize</country>
+                <summertime-high-temp>31.3 C</summertime-high-temp>
+            </with-moderate-emission-cuts>
+            <with-no-emission-cuts>
+                <name>Juarez</name>
+                <country>Mexico</country>
+                <summertime-high-temp>34.4 C</summertime-high-temp>
+            </with-no-emission-cuts>
+        </in-year-2100>
+    </city>
+    <city>
+        <name>Tokyo</name>
+        <country>Japan</country>
+        <summertime-high-temp>26.2 C</summertime-high-temp>
+        <in-year-2100>
+            <with-moderate-emission-cuts>
+                <name>Beijing</name>
+                <country>China</country>
+                <summertime-high-temp>29.0 C</summertime-high-temp>
+            </with-moderate-emission-cuts>
+            <with-no-emission-cuts>
+                <name>Wuhan</name>
+                <country>China</country>
+                <summertime-high-temp>31.2 C</summertime-high-temp>
+            </with-no-emission-cuts>
+        </in-year-2100>
+    </city>
+    <city>
+        <name>Barcelona</name>
+        <country>Spain</country>
+        <summertime-high-temp>25.7 C</summertime-high-temp>
+        <in-year-2100>
+            <with-moderate-emission-cuts>
+                <name>Madrid</name>
+                <country>Spain</country>
+                <summertime-high-temp>28.9 C</summertime-high-temp>
+            </with-moderate-emission-cuts>
+            <with-no-emission-cuts>
+                <name>Izmir</name>
+                <country>Turkey</country>
+                <summertime-high-temp>32.2 C</summertime-high-temp>
+            </with-no-emission-cuts>
+        </in-year-2100>
+    </city>
+</cities>
