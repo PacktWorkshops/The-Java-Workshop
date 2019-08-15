@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+group 'com.packtpub.http'
+version '1.0'
+
+sourceCompatibility = 12
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+
+    // jsoup HTML parser from https://jsoup.org/
+    implementation 'org.jsoup:jsoup:1.11.3'
+}
