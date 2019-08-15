@@ -1,0 +1,37 @@
+//plugins {
+//    id 'java'
+//}
+
+buildscript {       
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.github.jengelman.gradle.plugins:shadow:2.0.1'
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'com.github.johnrengelman.shadow' 
+
+group 'com.packtpub.steps'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 12
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+
+    // https://mvnrepository.com/artifact/org.apache.commons/commons-lang3
+    implementation group: 'org.apache.commons', name: 'commons-lang3', version: '3.8.1'
+}
+
+jar { 
+    manifest { 
+        attributes 'Main-Class': 'com.packtpub.steps.WeeklySteps' 
+    } 
+}
