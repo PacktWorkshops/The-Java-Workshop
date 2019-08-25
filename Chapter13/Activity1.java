@@ -1,41 +1,68 @@
 package com.packt.java.chapter13;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
-public class Activity1 {
+public class Activity2 {
 
     public static void main(String[] args) {
-        System.out.println(sum(2, 3));
-        System.out.println(sum(2, 3));
-        System.out.println(sum(2, 3));
+        ShoppingCart myFirstCart = new ShoppingCart(new HashMap<>());
+        ShoppingCart mySecondCart = myFirstCart.addItem(new ShoppingItem("Chair", 150));
+        ShoppingCart myThirdCart = mySecondCart.addItem(new ShoppingItem("Table",350));
 
-        System.out.println(sum(List.of(1, 2, 3)));
-        System.out.println(sum(List.of(1, 2, 3)));
-        System.out.println(sum(List.of(1, 2, 3)));
-
-        System.out.println(sum(2, 3, 4));
-        System.out.println(sum(2, 3, 4));
-        System.out.println(sum(2, 3, 4));
+        ShoppingCart myFourthCart = myThirdCart.removeItem(new ShoppingItem("Table",350));
+        ShoppingCart myFifthCart = myFourthCart.addItem(new ShoppingItem("Table",350));
+        ShoppingCart mySixthCart = myFifthCart.addItem(new ShoppingItem("Table",350));
     }
 
-    static int sum(int price1, int price2) {
-        return price1 + price2;
-    }
+    private static final class ShoppingItem {
+        private final String name;
+        private final int price;
 
-    static int sum(List<Integer> prices) {
-        int sum = 0;
-        for (int price : prices) {
-            sum += price;
+        public ShoppingItem(String name, int price) {
+            this.name = name;
+            this.price = price;
         }
-        return sum;
     }
 
-    static int sum(int... prices) {
-        int sum = 0;
-        for (int price : prices) {
-            sum += price;
+    public static final class ShoppingCart {
+
+        public final Map<String, Integer> mShoppingList;
+
+        public ShoppingCart(Map<String, Integer> list) {
+            mShoppingList = Collections.unmodifiableMap(list);
         }
-        return sum;
+
+        public ShoppingCart addItem(ShoppingItem item) {
+            Map<String, Integer> newList = new HashMap<>(mShoppingList);
+            int value = 0;
+            if (newList.containsKey(item.name)) {
+                value = newList.get(item.name);
+            }
+            newList.put(item.name, ++value);
+            return new ShoppingCart(newList);
+        }
+
+        public ShoppingCart removeItem(ShoppingItem item) {
+            Map<String, Integer> newList = new HashMap<>(mShoppingList);
+            int value = 0;
+            if (newList.containsKey(item.name)) {
+                value = newList.get(item.name);
+            }
+            if (value > 0) {
+                newList.put(item.name, --value);
+            }
+            return new ShoppingCart(newList);
+        }
+
+        public ShoppingCart addItems(ShoppingItem... items) {
+            Map<String, Integer> newList = new HashMap<>(mShoppingList);
+            ShoppingCart newCart = null;
+            for (ShoppingItem item : items) {
+                newCart = addItem(item);
+            }
+            return newCart;
+        }
     }
 }
+
+
