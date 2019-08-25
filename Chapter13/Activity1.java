@@ -2,16 +2,16 @@ package com.packt.java.chapter13;
 
 import java.util.*;
 
-public class Activity2 {
+public class Activity1 {
 
     public static void main(String[] args) {
         ShoppingCart myFirstCart = new ShoppingCart(new HashMap<>());
         ShoppingCart mySecondCart = myFirstCart.addItem(new ShoppingItem("Chair", 150));
-        ShoppingCart myThirdCart = mySecondCart.addItem(new ShoppingItem("Table",350));
+        ShoppingCart myThirdCart = mySecondCart.addItem(new ShoppingItem("Table", 350));
 
-        ShoppingCart myFourthCart = myThirdCart.removeItem(new ShoppingItem("Table",350));
-        ShoppingCart myFifthCart = myFourthCart.addItem(new ShoppingItem("Table",350));
-        ShoppingCart mySixthCart = myFifthCart.addItem(new ShoppingItem("Table",350));
+        ShoppingCart myFourthCart = myThirdCart.removeItem(new ShoppingItem("Table", 350));
+        ShoppingCart myFifthCart = myFourthCart.addItem(new ShoppingItem("Table", 350));
+        ShoppingCart mySixthCart = myFifthCart.addItem(new ShoppingItem("Table", 350));
     }
 
     private static final class ShoppingItem {
@@ -64,5 +64,3 @@ public class Activity2 {
         }
     }
 }
-
-
