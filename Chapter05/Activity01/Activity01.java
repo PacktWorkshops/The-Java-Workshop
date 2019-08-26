@@ -12,11 +12,11 @@ public class Activity01 {
     }
 
     public static void main(String[] args) throws NullPointerException, NoSuchFileException {
-        int exceptionNum = 2;
-
         Logger logger = Logger.getAnonymousLogger();
 
-        String s = null;
+        // int exceptionNum = 2; // for testing
+        int exceptionNum = Integer.valueOf(args[0]);
+
 
         switch (exceptionNum) {
             case 1:
