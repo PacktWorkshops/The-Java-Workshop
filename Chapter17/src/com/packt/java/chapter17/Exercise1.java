@@ -17,7 +17,6 @@ public class Exercise1 {
         publisher.subscribe(lipsumSubscriber);
 
         String filePath = "res/lipsum.txt";
-        publisher.subscribe(lipsumSubscriber);
 
         try (Stream<String> words = Files.lines(Paths.get(filePath))) {
             words.flatMap((l) -> Arrays.stream(l.split("[\\s.,\\n]+"))).forEach(publisher::submit);
