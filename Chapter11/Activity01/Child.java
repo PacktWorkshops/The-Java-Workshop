@@ -9,25 +9,37 @@ public class Child {
     public static void main(String[] args) throws java.io.IOException, InterruptedException {
         int ch;
         System.out.print ("Let's echo: ");
+
+        // echo out whatever comes from system in
         while ((ch = System.in.read ()) != '\n')
             System.out.print ((char) ch);
-        BufferedWriter bw=new BufferedWriter(
+
+        // the Child process will be logged in a file here
+        BufferedWriter bufferedWriter = new BufferedWriter(
                 new FileWriter(new File("mycal2022.txt")));
-            int cont = 0;
-            while(cont < 49) {
-                System.out.println(cont++);
-                cont %= 50;
-                bw.write(cont + "\n");
 
-                sleep(200);
+        int cont = 0;
+        while(cont <= 50) {
+            System.out.println(cont++);
 
-                if (System.in.available() > 0) {
-                    ch = System.in.read();
-                    if (ch == '*') {
-                        cont = 0;
-                    }
+            // add this to loop the counting (useful for testing)
+            //cont %= 50;
+
+            // added this to log data in local file + EOL
+            bufferedWriter.write(cont + "\n");
+            bufferedWriter.flush();
+
+            sleep(1000);
+
+            if (System.in.available() > 0) {
+                ch = System.in.read();
+
+                // reset counter if asterisk
+                if (ch == '*') {
+                    cont = 0;
                 }
             }
-        bw.close();
+        }
+        bufferedWriter.close();
     }
 }

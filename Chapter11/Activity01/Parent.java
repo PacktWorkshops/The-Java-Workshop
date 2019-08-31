@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.concurrent.TimeUnit;
 
 public class Parent {
-     public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws IOException {
         Runtime runtime = Runtime.getRuntime();
         Process process = null;
 
@@ -43,15 +43,26 @@ public class Parent {
         // send to file
         bufferedWriter.write(line);
         bufferedWriter.flush();
-         while (line != null) {
-             System.out.println(line + " - " + Integer.parseInt(line));
-             line = br.readLine();
-                if (Integer.parseInt(line) == 37) {
-                 writer.write('*');
-                 writer.flush(); // needed because of the buffered output
-                 System.out.println("sent message");
-                }
-         }
+
+        while (line != null) {
+            // send to screen
+            System.out.println(line);
+
+            // send to file + EOL
+            bufferedWriter.write(line  + "\n");
+            bufferedWriter.flush();
+
+            // read next line
+            line = bufferedReader.readLine();
+
+            // this will force the reset of the counter
+            // the program will therefore never end
+            if (Integer.parseInt(line) == 37) {
+                writer.write('*');
+                writer.flush(); // needed because of the buffered output
+                System.out.println("sent message");
+            }
+        }
         process.destroy();
     }
 }
