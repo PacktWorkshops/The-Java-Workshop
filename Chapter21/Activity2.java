@@ -18,6 +18,7 @@ public class Activity2 {
 
         harry = null;
         System.gc();
+        System.runFinalization();
         System.out.println("Test results: " + testResults.size());
     }
 

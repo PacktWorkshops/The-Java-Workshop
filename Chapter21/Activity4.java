@@ -10,8 +10,9 @@ public class Activity4 {
 
         SoftReference<ShoppingCart> softReference = new SoftReference<>(shoppingCart);
 
+        // Also set the maximum heap size using VM option -XmX2M (maximum heap to 2MB)
         for (int i = 0; i < 1_000_000; i++) {
-            Student asd = new Student("asd");
+            Student student = new Student("student");
         }
 
         shoppingCart = null;

@@ -18,6 +18,8 @@ public class Exercise1 {
 
         System.gc();
 
+        System.runFinalization();
+
         MyObject myObject3 = weakReference.get();
         System.out.println(myObject3);
     }
