@@ -18,7 +18,7 @@ public class Exercise2 {
 
         System.gc();
 
-        Thread.sleep(1);
+        System.runFinalization();
 
         System.out.println(String.format("ShoppingCart has %sbeen cleared.", (referenceQueue.poll() == null ? "not " : "")));
 

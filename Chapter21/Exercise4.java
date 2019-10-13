@@ -13,11 +13,14 @@ public class Exercise4 {
         shoppingCart = null;
 
         try {
-            // Also set the maximum heap to
+            // Attempt to fill up the HEAP to maximum
             ShoppingCart[] ignored = new ShoppingCart[(int) Runtime.getRuntime().maxMemory()];
-        } catch (OutOfMemoryError e) {}
+        } catch (OutOfMemoryError e) {
+        }
 
         System.gc();
+
+        System.runFinalization();
 
         ShoppingCart shoppingCart2 = softReference.get();
 

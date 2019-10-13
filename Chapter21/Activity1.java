@@ -24,7 +24,7 @@ public class Activity1 {
 
         System.gc();
 
-        Thread.sleep(1);
+        System.runFinalization();
 
         WeakReference<ShoppingCart> shoppingCartReferece = null;
         while ((shoppingCartReferece = (WeakReference<ShoppingCart>) referenceQueue.poll()) != null) {
