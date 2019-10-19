@@ -46,17 +46,13 @@ public class XmlTraverser {
     }
 
     public void traverseNode(Node node, int indentation) {
-
         indent(indentation);
         System.out.print(node.getNodeName() + " ");
-
         if (node.hasChildNodes()) {
             indentation += 2;
-
             NodeList children = node.getChildNodes();
             for (int i = 0; i < children.getLength(); i++) {
                 Node child = children.item(i);
-
                 if (child.getNodeType() == Node.TEXT_NODE) {
                     printText( child.getTextContent() );
                 } else {
