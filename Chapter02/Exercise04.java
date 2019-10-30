@@ -18,7 +18,7 @@ public class Exercise04 {
             System.out.println("You get a discount of " + mediumDiscount + "%");
         } else {
             // Sorry
-            System.out.println("You get a discount of " + smallDiscount + "%");
+            System.out.println("You get a discount of " + noDiscount + "%");
         }
     }
 }
