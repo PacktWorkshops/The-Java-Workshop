@@ -1,16 +1,21 @@
+# The Java Workshop
 [![GitHub issues](https://img.shields.io/github/issues/TrainingByPackt/The-Java-Workshop.svg)](https://github.com/TrainingByPackt/The-Java-Workshop/issues)
 [![GitHub forks](https://img.shields.io/github/forks/TrainingByPackt/The-Java-Workshop.svg)](https://github.com/TrainingByPackt/The-Java-Workshop/network)
 [![GitHub stars](https://img.shields.io/github/stars/TrainingByPackt/The-Java-Workshop.svg)](https://github.com/TrainingByPackt/The-Java-Workshop/stargazers)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/TrainingByPackt/The-Java-Workshop/pulls)
 
-# The-Java-Workshop
-You already know you want to learn Java, and a smarter way to learn Java 12 is to learn by doing. The Java Workshop focuses on building up your practical skills so that you can develop high-performance Java applications that work flawlessly within the JVM across web, mobile and desktop. You'll learn from real examples that lead to real results. 
+This is the repository for [The Java Workshop](https://courses.packtpub.com/courses/java?utm_source=github&utm_medium=repository&utm_campaign=9781838986698&utm_term=Java&utm_content=The%20Java%20Workshop), published by [Packt](https://www.packtpub.com/?utm_source=github). It contains all the supporting project files necessary to work through the course from start to finish.
 
-Throughout The Java Workshop, you'll take an engaging step-by-step approach to understanding Java. You won't have to sit through any unnecessary theory. If you're short on time you can jump into a single exercise each day or spend an entire weekend learning about Reactive programming and Unit testing. It's your choice. Learning on your terms, you'll build up and reinforce key skills in a way that feels rewarding. 
+## Requirements and Setup
+<a href="https://courses.packtpub.com/courses/java?utm_source=github&utm_medium=repository&utm_campaign=9781838986698&utm_term=Java&utm_content=The%20Java%20Workshop"><img src="https://github.com/PacktWorkshops/Workshop-Covers/blob/master/The%20Java%20Workshop.jpg" alt="The Java Workshop" height="340px" width="280px" align="right" this.target="_blank"></a>
 
-Every physical copy of The Java Workshop unlocks access to the interactive edition. With videos detailing all exercises and activities, you'll always have a guided solution. You can also benchmark yourself against assessments, track progress, and receive free content updates. You'll even earn a secure credential that you can share and verify online upon completion. It's a premium learning experience that's included with your printed copy. To redeem, follow the instructions located at the start of your Java book. 
+To get started with the project files, you'll need to:
+1. Install PHP on [Windows](https://windows.php.net/download/)
+2. MySQL Workbench on [Windows](https://dev.mysql.com/downloads/installer/)
+3. Installing Composer on [Ubuntu/Mac](https://getcomposer.org/download/), [Windows](https://getcomposer.org/Composer-Setup.exe)
 
-Fast-paced and direct, The Java Workshop is the ideal companion for Java beginners. You'll build and iterate on your code like a software developer, learning along the way. This process means that you'll find that your new skills stick, embedded as best practice. A solid foundation for the years ahead. 
+## About The Java Workshop
+You already know you want to learn Java, and a smarter way to learn Java 12 is to learn by doing. [The Java Workshop](https://courses.packtpub.com/courses/java?utm_source=github&utm_medium=repository&utm_campaign=9781838986698&utm_term=Java&utm_content=The%20Java%20Workshop) focuses on building up your practical skills so that you can develop high-performance Java applications that work flawlessly within the JVM across web, mobile and desktop. You'll learn from real examples that lead to real results.
 
 ## What you will learn
 * Get to grips with fundamental concepts and conventions of Java 12 
@@ -20,14 +25,15 @@ Fast-paced and direct, The Java Workshop is the ideal companion for Java beginne
 * Learn how to use third-party libraries and software development kits (SDKs) 
 * Discover how you can work with information stored in databases 
 * Understand how you can keep data secure with cryptography and encryption 
-* Learn how to keep your development process bug-free with unit testing in Java 
+* Learn how to keep your development process bug-free with unit testing in Java  
 
-### The examples of this title has been implemented in the Windows/MAC/Linux operating system.
+## Related Workshops
+If you've found this repository useful, you might want to check out some of our other workshop titles:
+* [The Python Workshop](https://courses.packtpub.com/courses/python?utm_source=github&utm_medium=repository&utm_campaign=9781839218859&utm_term=Python&utm_content=The%20Python%20Workshop)
+* [The Ruby Workshop](https://courses.packtpub.com/courses/ruby?utm_source=github&utm_medium=repository&utm_campaign=9781838642365&utm_term=Ruby&utm_content=The%20Ruby%20Workshop)
+* [The PHP Workshop](https://courses.packtpub.com/courses/php?utm_source=github&utm_medium=repository&utm_campaign=9781838648916&utm_term=PHP&utm_content=The%20PHP%20Workshop)
 
-### Software requirements
-You’ll also need the following software installed in advance:
-* Browser: Google Chrome/Mozilla Firefox Latest Version
-* IDE: IntelliJ Community Edition 2019.1
+
 
 
 
