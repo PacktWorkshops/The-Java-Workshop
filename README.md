@@ -11,7 +11,7 @@ This is the repository for [The Java Workshop](https://courses.packtpub.com/cour
 <a href="https://courses.packtpub.com/courses/java?utm_source=github&utm_medium=repository&utm_campaign=9781838986698&utm_term=Java&utm_content=The%20Java%20Workshop"><img src="https://github.com/PacktWorkshops/Workshop-Covers/blob/master/The%20Java%20Workshop.jpg" alt="The Java Workshop" height="300px" width="250px" align="right" this.target="_blank"></a>
 
 To get started with the project files, you'll need to:
-1. Install [IntelliJ](https://www.jetbrains.com/idea/)
+1. Install [IntelliJ](https://packt.live/32GjsHb)
 2. Install [H2](http://www.h2database.com/html/main.html)
 
 ## About The Java Workshop
