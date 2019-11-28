@@ -2,8 +2,8 @@
 [![GitHub issues](https://img.shields.io/github/issues/TrainingByPackt/The-Java-Workshop.svg)](https://github.com/TrainingByPackt/The-Java-Workshop/issues)
 [![GitHub forks](https://img.shields.io/github/forks/TrainingByPackt/The-Java-Workshop.svg)](https://github.com/TrainingByPackt/The-Java-Workshop/network)
 [![GitHub stars](https://img.shields.io/github/stars/TrainingByPackt/The-Java-Workshop.svg)](https://github.com/TrainingByPackt/The-Java-Workshop/stargazers)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/TrainingByPackt/The-Java-Workshop/pulls)
-[![Java 12](https://img.shields.io/badge/Java-12-brightgreen.svg)]
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightblue.svg)](https://github.com/TrainingByPackt/The-Java-Workshop/pulls)
+[![Java 12](https://img.shields.io/badge/Java-12-brightgreen.svg)](https://docs.oracle.com/en/java/javase/12/install/installation-jdk-microsoft-windows-platforms.html#GUID-A7E27B90-A28D-4237-9383-A58B416071CA)
 
 This is the repository for [The Java Workshop](https://courses.packtpub.com/courses/java?utm_source=github&utm_medium=repository&utm_campaign=9781838986698&utm_term=Java&utm_content=The%20Java%20Workshop), published by [Packt](https://www.packtpub.com/?utm_source=github). It contains all the supporting project files necessary to work through the course from start to finish.
 
