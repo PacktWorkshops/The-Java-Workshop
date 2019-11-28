@@ -7,12 +7,11 @@
 This is the repository for [The Java Workshop](https://courses.packtpub.com/courses/java?utm_source=github&utm_medium=repository&utm_campaign=9781838986698&utm_term=Java&utm_content=The%20Java%20Workshop), published by [Packt](https://www.packtpub.com/?utm_source=github). It contains all the supporting project files necessary to work through the course from start to finish.
 
 ## Requirements and Setup
-<a href="https://courses.packtpub.com/courses/java?utm_source=github&utm_medium=repository&utm_campaign=9781838986698&utm_term=Java&utm_content=The%20Java%20Workshop"><img src="https://github.com/PacktWorkshops/Workshop-Covers/blob/master/The%20Java%20Workshop.jpg" alt="The Java Workshop" height="340px" width="280px" align="right" this.target="_blank"></a>
+<a href="https://courses.packtpub.com/courses/java?utm_source=github&utm_medium=repository&utm_campaign=9781838986698&utm_term=Java&utm_content=The%20Java%20Workshop"><img src="https://github.com/PacktWorkshops/Workshop-Covers/blob/master/The%20Java%20Workshop.jpg" alt="The Java Workshop" height="300px" width="250px" align="right" this.target="_blank"></a>
 
 To get started with the project files, you'll need to:
-1. Install PHP on [Windows](https://windows.php.net/download/)
-2. MySQL Workbench on [Windows](https://dev.mysql.com/downloads/installer/)
-3. Installing Composer on [Ubuntu/Mac](https://getcomposer.org/download/), [Windows](https://getcomposer.org/Composer-Setup.exe)
+1. Install [IntelliJ] (https://www.jetbrains.com/idea/)
+2. Install [H2](http://www.h2database.com/html/main.html)
 
 ## About The Java Workshop
 You already know you want to learn Java, and a smarter way to learn Java 12 is to learn by doing. [The Java Workshop](https://courses.packtpub.com/courses/java?utm_source=github&utm_medium=repository&utm_campaign=9781838986698&utm_term=Java&utm_content=The%20Java%20Workshop) focuses on building up your practical skills so that you can develop high-performance Java applications that work flawlessly within the JVM across web, mobile and desktop. You'll learn from real examples that lead to real results.
