@@ -2,7 +2,7 @@ import java.util.*;
 
 public class Example14 {
     public static void main(String[] args) {
-        List list = new ArrayList();
+        List<String> list = new ArrayList<>();
 
         list.add("No");
         list.add("matter");
