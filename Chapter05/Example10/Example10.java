@@ -16,7 +16,7 @@ public class Example10 {
             //fe.printStackTrace();
         }
 
-        // you will never see this print
+        // after catching the exception, this code is executed
         Iterator<String> iterator = lines.iterator();
         while (iterator.hasNext())
             System.out.println(iterator.next());
