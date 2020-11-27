@@ -3,7 +3,7 @@ import java.util.*;
 public class Activity02 {
 
     public static void main(String[] args) {
-        List <Double> numbers = new ArrayList <Double> ();
+        List <Double> numbers = new ArrayList <> ();
 
         // random creates a number between 0 and 1
         // round removes the decimal
