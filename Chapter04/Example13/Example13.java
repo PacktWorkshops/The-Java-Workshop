@@ -2,7 +2,7 @@ import java.util.*;
 
 public class Example13 {
     public static void main(String[] args) {
-        List list = new ArrayList();
+        List<Integer> list = new ArrayList<>();
 
         list.add(35);
         list.add(19);
