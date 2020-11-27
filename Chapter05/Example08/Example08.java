@@ -17,7 +17,7 @@ public class Example08 {
             System.out.println("Exception: IOException");
         }
 
-        // you will never see this print
+        // after catching the exception, this code is executed
         Iterator<String> iterator = lines.iterator();
         while (iterator.hasNext())
             System.out.println(iterator.next());
