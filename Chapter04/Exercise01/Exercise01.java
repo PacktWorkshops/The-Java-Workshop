@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.Console;
 
-public class Example01 {
+public class Exercise01 {
     public static void main(String[] args) {
         ArrayList <String> text = new ArrayList<>();
         Console cons;
