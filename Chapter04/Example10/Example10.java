@@ -2,7 +2,7 @@ import java.util.*;
 
 public class Example10 {
     public static void main(String[] args) {
-        Set set1 = new LinkedHashSet();
+        Set<Integer> set1 = new LinkedHashSet<>();
 
         set1.add(35);
         set1.add(19);
