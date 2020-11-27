@@ -19,7 +19,7 @@ public class Example12 {
             System.out.println("Exception: Case Closed");
         }
 
-        // you will never see this print
+        // code to be executed after handling the exception
         Iterator<String> iterator = lines.iterator();
         while (iterator.hasNext())
             System.out.println(iterator.next());
