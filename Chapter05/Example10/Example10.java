@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Example10 {
     public static void main(String[] args) throws IOException {
-        // declare a list that will contain all of the files
+        // declare a list that will contain all of the lines
         // inside of the readme.txt file
         List<String> lines = Collections.emptyList();
 
@@ -16,7 +16,7 @@ public class Example10 {
             //fe.printStackTrace();
         }
 
-        // you will never see this print
+        // after catching the exception, this code is executed
         Iterator<String> iterator = lines.iterator();
         while (iterator.hasNext())
             System.out.println(iterator.next());
