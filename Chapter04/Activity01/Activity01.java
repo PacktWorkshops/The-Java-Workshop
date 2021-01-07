@@ -1,21 +1,30 @@
 import java.util.Arrays;
 
-public class Activity01 {
+public class Activity1 {
     public static void main(String[] args) {
         String[] text = {"So", "many", "books", "so", "little", "time"};
-        String toSearch = "so";
-        int occurrences = -1;
+        String searchQuery = "so";
+        int occurrence = -1;
 
-        for(int i = 0; i < 5; i++) {
-            if (text[i].compareToIgnoreCase(toSearch) == 0) {
+        for(int i = 0; i < text.length; i++) {
+            occurrence = text[i].compareToIgnoreCase(searchQuery);
+            if (occurrence == 0) {
                 System.out.println("Found query at :" + i);
-                occurrences++;
-            } 
+            }
         }
 
-        if (occurrences > -1) {
-            occurrences++;
-            System.out.println("Found: " + occurrences + " coinciding words");
+/* Alternative solution displaying the total amount of findings at the end
+        for(int i = 0; i < text.length; i++) {
+            if (text[i].compareToIgnoreCase(searchQuery) == 0) {
+                System.out.println("Found query at :" + i);
+                occurrence++;
+            }
         }
+
+        if (occurrence > -1) {
+            occurrence++;
+            System.out.println("Found: " + occurrence + " coinciding words");
+        }
+*/
     }
 }
