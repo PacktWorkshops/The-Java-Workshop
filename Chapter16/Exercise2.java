@@ -34,7 +34,7 @@ public class Exercise2 {
             System.out.println("Alarm service notified");
         }
 
-        if (sensors.stream().anyMatch(hasAlarmOrWarning.negate())) {
+        if (sensors.stream().allMatch(hasAlarmOrWarning.negate())) {
             System.out.println("Nothing was triggered");
         }
     }
